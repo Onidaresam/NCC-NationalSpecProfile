@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-num{
+    padding: 8px 15px;
+    border-radius: 3px;
+    border-color: red;
+    cursor:pointer;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: #5F5F8C
+}
+
+.page-num:hover{
+    background-color: #73FF0F;
+    color:white;
+}
+.active{
+    background-color: #73FF0F;
+}

@@ -1,0 +1,15 @@
+Band 30Mhz-300Mhz
+subbands:
+[
+  { range: '30.00-60.00MHz' },
+  { range: '60.00-90.00MHz' },
+  { range: '90.00-120.00MHz' },
+  { range: '120.00-150.00MHz' },
+  { range: '150.00-180.00MHz' },
+  { range: '180.00-210.00MHz' },
+  { range: '210.00-240.00MHz' },
+  { range: '240.00-270.00MHz' },
+  { range: '270.00-300.00MHz' }
+]
+
+
