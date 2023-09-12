@@ -18,9 +18,9 @@ const generateBands = (startFrequency, endFrequency, numBands) => {
 };
 
 // Usage
-const startFrequency = 3000;
-const endFrequency = 6000;
-const numBands = 100;
+const startFrequency = 30;
+const endFrequency = 300;
+const numBands = 9;
 
 const bands = generateBands(startFrequency, endFrequency, numBands);
 console.log(bands);
