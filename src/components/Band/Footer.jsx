@@ -11,7 +11,7 @@ export default function Footer() {
               and Terms of Service apply</p>
           </div>
           <div className='flex'>
-              <p className='font-graphik text-[16px] font-normal leading-[24px]'>Created The SpecProfile Group</p>
+              <p className='font-graphik text-[16px] font-normal leading-[24px]'>Created By The SpecProfile Group</p>
           </div>
 
       </div>
@@ -23,7 +23,7 @@ export default function Footer() {
               and Terms of Service apply</p>
           </div>
           <div className='flex items-end'>
-              <p className='font-graphik text-[16px] font-normal leading-[24px]'>Created The SpecProfile Group</p>
+              <p className='font-graphik text-[16px] font-normal leading-[24px]'>Created By The SpecProfile Group</p>
           </div>
       </div>
     </>

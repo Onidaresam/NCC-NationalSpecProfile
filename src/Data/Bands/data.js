@@ -8,12 +8,12 @@ const BandsData = [
           bands: [
         //0hz to 30Mhz
         {
-          range: "0-30Mhz",
+          range: "100Khz-30Mhz",
           result: {
-            utilization: "90",
+            utilization: "33.32",
             frequencies: {
-              utilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"],
-              notutilized: ["900Mhz","5000Mhz","700Mhz","5000Mhz","600Mhz","4460Mhz","8500Mhz"]
+              utilized: ["100Khz-13.143260Mhz"],
+              notutilized: ["13.143261Mhz-26.186522Mhz"]
             }
           }
         },
@@ -26,8 +26,8 @@ const BandsData = [
               result: {
                 utilization: "40",
                 frequencies: {
-                  utilized: ["1500Mhz","6060Mhz","5805Mhz","45000Mhz","630Mhz","56060Mhz","5800Mhz"],
-                  notutilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"]
+                  utilized: [""],
+                  notutilized: [""]
                 }
               }
             },
