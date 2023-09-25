@@ -201,8 +201,8 @@ export default function Body() {
         <Slider {...settings}>
           {
             HeroData?.map((data) =>(
-              <div key={data.id} className=''>
-               <img src ={data.sm}
+              <div key={data.id} className='w-full'>
+               <img src ={data.sm} className='w-full'
                alt={ data.name }/>
               </div> 
               
@@ -403,8 +403,8 @@ export default function Body() {
         <Slider {...settings}>
             {
                 HeroData?.map((data) =>(
-                   <div key={data.id} className=''>
-                    <img src ={data.image}
+                   <div key={data.id} className='w-full'>
+                    <img src ={data.image} className='w-full'
                     alt={ data.name }/>
                    </div> 
                    

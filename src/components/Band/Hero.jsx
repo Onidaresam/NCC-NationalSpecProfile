@@ -194,8 +194,6 @@ export default function Hero() {
         arrows: false,
         cssEase: "linear",
         //fade: true,
-       
-       
       };
   return (
     <> 
@@ -204,8 +202,8 @@ export default function Hero() {
         <Slider {...settings}>
           {
             HeroData?.map((data) =>(
-              <div key={data.id} className=''>
-               <img src ={data.sm}
+              <div key={data.id} className='w-full'>
+               <img src ={data.sm} className='w-full'
                alt={ data.name }/>
               </div> 
               
@@ -337,7 +335,7 @@ export default function Hero() {
       {/*RESULT VISUAL*/}
       {result ? (
         <div ref={spectrumRef} className='mt-[100px] mx-[16px] md:mx-[45px] flex flex-col'>
-          <div className='py-[20px] px-[40px] border bg-[#820078] rounded-[10px]'>
+          <div className='py-[20px] px-[40px] border bg-[#F6F6F8] rounded-[10px]'>
             <h1 className="text-[#73FF0F] font-graphik text-[16px] font-medium leading-[32px]">
             Spectrum Visualization
             </h1>
@@ -385,7 +383,7 @@ export default function Hero() {
         </div>
       ):(
         <div ref={spectrumRef} className='mt-[100px] mx-[16px] md:mx-[45px] flex flex-col'>
-          <div className='py-[20px] px-[40px] border bg-[#820078] rounded-[10px]'>
+          <div className='py-[20px] px-[40px] border bg-[#F6F6F8] rounded-[10px]'>
             <h1 className="text-[#73FF0F] font-graphik text-[20px] font-medium leading-[32px]">
             Spectrum Visualization
             </h1>
@@ -406,8 +404,8 @@ export default function Hero() {
         <Slider {...settings}>
             {
                 HeroData?.map((data) =>(
-                   <div key={data.id} className=''>
-                    <img src ={data.image}
+                   <div key={data.id} className='w-full'>
+                    <img src ={data.image} className='w-full'
                     alt={ data.name }/>
                    </div> 
                    
@@ -538,7 +536,7 @@ export default function Hero() {
       {/*RESULT VISUAL */}
       {result ? (
         <div ref={spectrumRef} className='mt-[100px] mx-[172.5px] flex flex-col'>
-        <div className='py-[20px] px-[40px] border bg-[#820078] rounded-[10px]'>
+        <div className='py-[20px] px-[40px] border bg-[#F6F6F8] rounded-[10px]'>
           <h1 className="text-[#73FF0F] font-graphik text-[20px] font-medium leading-[32px]">
           Spectrum Visualization
           </h1>
@@ -620,7 +618,7 @@ export default function Hero() {
 
       ):(
         <div ref={spectrumRef} className='mt-[100px] mx-[172.5px]  flex flex-col'>
-          <div className='py-[20px] px-[40px] border bg-[#820078] rounded-[10px]'>
+          <div className='py-[20px] px-[40px] border bg-[#F6F6F8] rounded-[10px]'>
             <h1 className="text-[#73FF0F] font-graphik text-[20px] font-medium leading-[32px]">
             Spectrum Visualization
             </h1>

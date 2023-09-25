@@ -27,7 +27,7 @@ export default function Body() {
             {
                 UserData.map((user) => (
                 <div key={user.id}>   
-                    <img src={user.image} alt="wol" className='object-contain rounded-[12px] w-full h-[360px]'/>
+                    <img src={user.image} alt="wol" className=' rounded-[12px] w-full h-[360px]'/>
                     <div className='mt-[16px] border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px] '>
                         <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>{user.name}</h1>
                         <p className='font-graphik pb-[8px] text-[#242424] text-[20px] leading-[28px] font-medium'>{user.Job}</p>
@@ -61,7 +61,7 @@ export default function Body() {
             <div className=' flex flex-col space-y-[60px]'>
                 <div className='w-full flex flex-row space-x-[60px]'>
                     <div className='w-[50%] flex flex-col space-y-[16px]'>
-                        <img className='object-contain w-full h-[360px] rounded-[12px]' src={UserData[0].image} alt={UserData[0].name} />
+                        <img className=' w-full h-[360px] rounded-[12px]' src={UserData[0].image} alt={UserData[0].name} />
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
                                 {UserData[0].name}
@@ -80,7 +80,7 @@ export default function Body() {
                         </div>
                     </div>
                     <div className='w-[50%] flex flex-col space-y-[16px]'>
-                        <img className='object-contain w-full h-[360px] rounded-[12px]' src={UserData[1].image} alt={UserData[1].name} />
+                        <img className=' w-full h-[360px] rounded-[12px]' src={UserData[1].image} alt={UserData[1].name} />
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
                                 {UserData[1].name}
@@ -101,7 +101,7 @@ export default function Body() {
                 </div>
                 <div className='w-full flex flex-row space-x-[60px]'>
                     <div className='w-[50%] flex flex-col space-y-[16px]'>
-                        <img className='object-contain w-full h-[360px] rounded-[12px]' src={UserData[2].image} alt={UserData[2].name} />
+                        <img className=' w-full h-[360px] rounded-[12px]' src={UserData[2].image} alt={UserData[2].name} />
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
                                 {UserData[2].name}
@@ -119,7 +119,7 @@ export default function Body() {
                         </div>
                         </div>
                     </div>
-                    <div className='object-contain w-[50%] flex flex-col space-y-[16px]'>
+                    <div className=' w-[50%] flex flex-col space-y-[16px]'>
                         <img className='w-full h-[360px] rounded-[12px]' src={UserData[3].image} alt={UserData[3].name} />
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
