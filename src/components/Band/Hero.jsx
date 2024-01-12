@@ -308,10 +308,10 @@ export default function Hero() {
             <Button
             isLoading
             loadingText='Submitting'
-            colorScheme='#820078'
+            colorScheme='#4F00B6'
             size='lg'
             variant='solid'
-            className='w-full h-[56px] rounded-[10px] bg-[#820078]'
+            className='w-full h-[56px] rounded-[10px] bg-[#4F00B6]'
             type='submit'
           >
             Load Data
@@ -319,10 +319,10 @@ export default function Hero() {
 
           ):(
             <Button
-            colorScheme='#820078'
+            colorScheme='#4F00B6'
             size='lg'
             variant='solid'
-            className='w-full h-[56px] rounded-[10px] bg-[#820078]'
+            className='w-full h-[56px] rounded-[10px] bg-[#4F00B6]'
             type='submit'
           >
             Load Data
@@ -508,10 +508,10 @@ export default function Hero() {
             <Button
             isLoading
             loadingText='Submitting'
-            colorScheme='#820078'
+            colorScheme='#4F00B6'
             size='lg'
             variant='solid'
-            className='w-full h-[56px] rounded-[10px] bg-[#820078]'
+            className='w-full h-[56px] rounded-[10px] bg-[#4F00B6]'
             type='submit'
           >
             Load Data
@@ -519,10 +519,10 @@ export default function Hero() {
 
           ):(
             <Button
-            colorScheme='#820078'
+            colorScheme='#4F00B6'
             size='lg'
             variant='solid'
-            className='w-full h-[56px] rounded-[10px] bg-[#820078]'
+            className='w-full h-[56px] rounded-[10px] bg-[#4F00B6]'
             type='submit'
           >
             Load Data

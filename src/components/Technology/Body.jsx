@@ -307,10 +307,10 @@ export default function Body() {
             <Button
             isLoading
             loadingText='Submitting'
-            colorScheme='#820078'
+            colorScheme='#4F00B6'
             size='lg'
             variant='solid'
-            className='w-full h-[56px] rounded-[10px] bg-[#820078]'
+            className='w-full h-[56px] rounded-[10px] bg-[#4F00B6]'
             type='submit'
           >
             Load Data
@@ -318,10 +318,10 @@ export default function Body() {
 
           ):(
             <Button
-            colorScheme='#820078'
+            colorScheme='#4F00B6'
             size='lg'
             variant='solid'
-            className='w-full h-[56px] rounded-[10px] bg-[#820078]'
+            className='w-full h-[56px] rounded-[10px] bg-[#4F00B6]'
             type='submit'
           >
             Load Data
@@ -334,7 +334,7 @@ export default function Body() {
       {/*RESULT VISUAL*/}
       {result ? (
         <div ref={spectrumRef} className='mt-[100px] mx-[16px] md:mx-[45px] flex flex-col'>
-          <div className='py-[20px] px-[40px] border bg-[#820078] rounded-[10px]'>
+          <div className='py-[20px] px-[40px] border bg-[#4F00B6] rounded-[10px]'>
             <h1 className="text-[#73FF0F] font-graphik text-[16px] font-medium leading-[32px]">
             Spectrum Visualization
             </h1>
@@ -382,7 +382,7 @@ export default function Body() {
         </div>
       ):(
         <div ref={spectrumRef} className='mt-[100px] mx-[16px] md:mx-[45px] flex flex-col'>
-          <div className='py-[20px] px-[40px] border bg-[#820078] rounded-[10px]'>
+          <div className='py-[20px] px-[40px] border bg-[#4F00B6] rounded-[10px]'>
             <h1 className="text-[#73FF0F] font-graphik text-[20px] font-medium leading-[32px]">
             Spectrum Visualization
             </h1>
@@ -506,10 +506,10 @@ export default function Body() {
             <Button
             isLoading
             loadingText='Submitting'
-            colorScheme='#820078'
+            colorScheme='#4F00B6'
             size='lg'
             variant='solid'
-            className='w-full h-[56px] rounded-[10px] bg-[#820078]'
+            className='w-full h-[56px] rounded-[10px] bg-[#4F00B6]'
             type='submit'
           >
             Load Data
@@ -517,10 +517,10 @@ export default function Body() {
 
           ):(
             <Button
-            colorScheme='#820078'
+            colorScheme='#4F00B6'
             size='lg'
             variant='solid'
-            className='w-full h-[56px] rounded-[10px] bg-[#820078]'
+            className='w-full h-[56px] rounded-[10px] bg-[#4F00B6]'
             type='submit'
           >
             Load Data
@@ -534,7 +534,7 @@ export default function Body() {
       {/*RESULT VISUAL */}
       {result ? (
         <div ref={spectrumRef} className='mt-[100px] mx-[172.5px] flex flex-col'>
-        <div className='py-[20px] px-[40px] border bg-[#820078] rounded-[10px]'>
+        <div className='py-[20px] px-[40px] border bg-[#4F00B6] rounded-[10px]'>
           <h1 className="text-[#73FF0F] font-graphik text-[20px] font-medium leading-[32px]">
           Spectrum Visualization
           </h1>
@@ -616,7 +616,7 @@ export default function Body() {
 
       ):(
         <div ref={spectrumRef} className='mt-[100px] mx-[172.5px]  flex flex-col'>
-          <div className='py-[20px] px-[40px] border bg-[#820078] rounded-[10px]'>
+          <div className='py-[20px] px-[40px] border bg-[#4F00B6] rounded-[10px]'>
             <h1 className="text-[#73FF0F] font-graphik text-[20px] font-medium leading-[32px]">
             Spectrum Visualization
             </h1>

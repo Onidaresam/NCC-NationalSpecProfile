@@ -75,7 +75,7 @@ export default function Nav() {
             <img src={logo} alt="specprofile" />
         </div>
         <div className='flex items-center space-x-[40px]'>
-            <Link to="/" className='text-[#73FF0F] font-graphik text-base font-bold leading-6 px-[16px] py-[12px] rounded-lg bg-[#820078]'>Bands</Link>
+            <Link to="/" className='text-[#73FF0F] font-graphik text-base font-bold leading-6 px-[16px] py-[12px] rounded-lg bg-[#4F00B6]'>Bands</Link>
             <Link to="/technologies" className=' text-[#5F5F8C] hover:text-[#73FF0F] font-graphik text-base font-medium leading-6'>Technology</Link>
             <Link to="/aboutus" className=' text-[#5F5F8C] hover:text-[#73FF0F] font-graphik text-base font-medium leading-6'>Meet the Team</Link>
 
