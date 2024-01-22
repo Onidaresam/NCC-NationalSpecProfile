@@ -5,6 +5,7 @@ import { MdEmail} from 'react-icons/md';
 import mobileabout from '../../assets/mobileabout.png'
 import hero from '../../assets/aboutushero.png'
 import UserData from '../../Data/userdata'
+import Hod from '../../assets/hod.jpg'
 
 export default function Body() {
   return (
@@ -25,6 +26,21 @@ export default function Body() {
         </h1>
         </div>
         <div className='md:relative md:bottom-[-1000px] mt-[100px] md:mx-[45px] mx-[16px] flex flex-col space-y-[40px]'>
+            <div>   
+                <img src={Hod} alt="hod" className=' rounded-[12px] w-full h-[360px]'/>
+                <div className='mt-[16px] border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px] '>
+                    <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>{'Onidare S.O (Ph.D)'}</h1>
+                    <p className='font-graphik pb-[8px] text-[#242424] text-[20px] leading-[28px] font-medium'>{'Team Head and Supervisor'}</p>
+                    <div className='flex justify-end space-x-[10px]'>
+                        <a href='https://www.linkedin.com/in/samuel-onidare-53a75a10/' className='w-[24px] h-[24px]'> 
+                            <FaLinkedin className='w-full h-full' /> 
+                        </a>
+                        <a href='Saysam001@hotmail.com' className='w-[24px] h-[24px]'>
+                            <MdEmail className='w-full h-full'/>
+                        </a>
+                    </div>
+                </div>
+            </div>
             {
                 UserData.map((user) => (
                 <div key={user.id}>   
@@ -61,13 +77,13 @@ export default function Body() {
         </div>
         <div className='mt-[100px] mx-[172.5px]'>
             <div className=' flex flex-col space-y-[60px]'>
-                <div className='w-[100%] px-[200px] flex flex-col space-y-[16px]'>
+                <div className='self-center w-[100%] px-[100px] xl:px-[200px] flex flex-col space-y-[16px]'>
                     <div className='flex items-center h-[360px] '>
-                        <img className='h-full w-full rounded-[12px]' src={UserData[0].image} alt={UserData[0].name} />
+                        <img className='h-full w-full rounded-[12px]' src={Hod} alt='hod' />
                     </div>
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
-                                {UserData[0].name}
+                                {'Onidare S.O (Ph.D)'}
                             </h1>
                             <p className='font-graphik pb-[8px] text-[#242424] text-[20px] leading-[28px] font-medium'>
                                 Team Head and Supervisor
