@@ -1,6 +1,6 @@
-import wole from '../assets/wole.jpg'
-import eric from '../assets/eric.jpg'
-import mariam from '../assets/mariam.jpg'
+import wole from '../assets/wole.svg'
+import eric from '../assets/eric.svg'
+import mariam from '../assets/mariam.svg'
 import ahmed from '../assets/AHmed.jpg'
 const UserData = [
     {

@@ -5,7 +5,7 @@ import { MdEmail} from 'react-icons/md';
 import mobileabout from '../../assets/mobileabout.png'
 import hero from '../../assets/aboutushero.png'
 import UserData from '../../Data/userdata'
-import Hod from '../../assets/Hod.jpg'
+import Hod from '../../assets/Hod.svg'
 
 export default function Body() {
   return (
@@ -27,7 +27,7 @@ export default function Body() {
         </div>
         <div className='md:relative md:bottom-[-1000px] mt-[100px] md:mx-[45px] mx-[16px] flex flex-col space-y-[40px]'>
             <div>   
-                <img src={Hod} alt="hod" className=' rounded-[12px] w-full h-[360px]'/>
+                <img src={Hod} alt="hod" className=' rounded-[12px] w-full h-full'/>
                 <div className='mt-[16px] border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px] '>
                     <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>{'Onidare S.O (Ph.D)'}</h1>
                     <p className='font-graphik pb-[8px] text-[#242424] text-[20px] leading-[28px] font-medium'>{'Team Head and Supervisor'}</p>
@@ -44,7 +44,7 @@ export default function Body() {
             {
                 UserData.map((user) => (
                 <div key={user.id}>   
-                    <img src={user.image} alt="wol" className=' rounded-[12px] w-full h-[360px]'/>
+                    <img src={user.image} alt="wol" className=' rounded-[12px] w-full h-full'/>
                     <div className='mt-[16px] border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px] '>
                         <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>{user.name}</h1>
                         <p className='font-graphik pb-[8px] text-[#242424] text-[20px] leading-[28px] font-medium'>{user.Job}</p>
@@ -78,7 +78,7 @@ export default function Body() {
         <div className='mt-[100px] mx-[172.5px]'>
             <div className=' flex flex-col space-y-[60px]'>
                 <div className='self-center w-[100%] px-[100px] xl:px-[200px] flex flex-col space-y-[16px]'>
-                    <div className='flex items-center h-[360px] '>
+                    <div className='flex items-center h-full w-full '>
                         <img className='h-full w-full rounded-[12px]' src={Hod} alt='hod' />
                     </div>
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
@@ -100,7 +100,7 @@ export default function Body() {
                 </div>
                 <div className='w-full flex flex-row space-x-[60px]'>
                     <div className='w-[50%] flex flex-col space-y-[16px]'>
-                        <img className=' w-full h-[360px] rounded-[12px]' src={UserData[0].image} alt={UserData[0].name} />
+                        <img className=' w-full h-full rounded-[12px]' src={UserData[0].image} alt={UserData[0].name} />
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
                                 {UserData[0].name}
@@ -119,7 +119,7 @@ export default function Body() {
                         </div>
                     </div>
                     <div className='w-[50%] flex flex-col space-y-[16px]'>
-                        <img className=' w-full h-[360px] rounded-[12px]' src={UserData[1].image} alt={UserData[1].name} />
+                        <img className=' w-full h-full rounded-[12px]' src={UserData[1].image} alt={UserData[1].name} />
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
                                 {UserData[1].name}
@@ -140,7 +140,7 @@ export default function Body() {
                 </div>
                 <div className='w-full flex flex-row space-x-[60px]'>
                     <div className='w-[50%] flex flex-col space-y-[16px]'>
-                        <img className=' w-full h-[360px] rounded-[12px]' src={UserData[2].image} alt={UserData[2].name} />
+                        <img className=' w-full h-full rounded-[12px]' src={UserData[2].image} alt={UserData[2].name} />
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
                                 {UserData[2].name}
@@ -159,7 +159,7 @@ export default function Body() {
                         </div>
                     </div>
                     <div className=' w-[50%] flex flex-col space-y-[16px]'>
-                        <img className='w-full h-[360px] rounded-[12px]' src={UserData[3].image} alt={UserData[3].name} />
+                        <img className='w-full h-full rounded-[12px]' src={UserData[3].image} alt={UserData[3].name} />
                         <div className='border-1 border-[#EDEDF2] bg-[#F6F6F8] rounded-[12px] p-[16px]'>
                             <h1 className='font-graphik pb-[8px] text-[#242424] text-[24px] font-semibold leading-[32px]'>
                                 {UserData[3].name}
