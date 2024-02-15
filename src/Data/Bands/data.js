@@ -12,8 +12,8 @@ const BandsData = [
           result: {
             utilization: "33.32",
             frequencies: {
-              utilized: ["100KHZ"],
-              notutilized: ["13.14MHZ","26.19MHZ"]
+              utilized: ["100KHZ-13.14MHZ(99.98%)"],
+              notutilized: ["13.14MHZ-26.19MHZ(0%)","26.19MHZ-30.00MHZ(0%)"]
             }
           }
         },
@@ -26,7 +26,7 @@ const BandsData = [
               "result": {
                 "utilization": "97.60",
                 "frequencies": {
-                  "utilized": ["39.23MHZ","52.27MHZ"],
+                  "utilized": ["30.23MHZ-52.27MHZ(97.45%)","52.27MHZ-60.00MHZ(97.75%)"],
                   "notutilized": []
                 }
               }
@@ -36,7 +36,7 @@ const BandsData = [
               "result": {
                 "utilization": "98.13",
                 "frequencies": {
-                  "utilized": ["65.32MHZ","78.36MHZ"],
+                  "utilized": ["60.00MHZ-78.36MHZ(98%)","78.36MHZ-90.00MHZ(98.23%)"],
                   "notutilized": []
                 }
               }
@@ -46,8 +46,8 @@ const BandsData = [
               "result": {
                 "utilization": "66.04",
                 "frequencies": {
-                  "utilized": ["91.40MHZ","104.45MHZ"],
-                  "notutilized": ["117.49MHZ"]
+                  "utilized": ["90.00MHZ-104.45MHZ(99.49%)","104.45MHZ-117.49MHZ(98.63%)"],
+                  "notutilized": ["117.49MHZ-120.00MHZ(0%)"]
                 }
               }
             },
@@ -57,7 +57,7 @@ const BandsData = [
                 "utilization": "O",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": ["130.53MHZ","143.58MHZ"]
+                  "notutilized": ["120.00MHZ - 150.00MHZ(0%)"]
                 }
               }
             },
@@ -67,7 +67,7 @@ const BandsData = [
                 "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": ["156.62MHZ","169.66MHZ"]
+                  "notutilized": ["150.00MHZ - 180.00MHZ(0%)"]
                 }
               }
             },
@@ -77,7 +77,7 @@ const BandsData = [
                 "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": ["182.71MHZ","195.75MHZ","208.79MHZ"]
+                  "notutilized": ["180.00MHZ - 210.00MHZ(0%)"]
                 }
               }
             },
@@ -87,7 +87,7 @@ const BandsData = [
                 "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": ["221.84MHZ","234.88MHZ"]
+                  "notutilized": ["210.00MHZ - 240.00MHZ(0%)"]
                 }
               }
             },
@@ -97,7 +97,7 @@ const BandsData = [
                 "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": ["247.92MHZ","260.97MHZ"]
+                  "notutilized": ["240.00MHZ - 270.00MHZ(0%)"]
                 }
               }
             },
@@ -107,7 +107,7 @@ const BandsData = [
                 "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": ["274.01MHZ","287.05MHZ"]
+                  "notutilized": ["270.00MHz - 300.00MHz(0%)"]
                 }
               }
             }
@@ -122,158 +122,158 @@ const BandsData = [
                 result: {
                   utilization: "0",
                   frequencies: {
-                    utilized: ["","",""],
-                    notutilized: []
+                    utilized: [],
+                    notutilized: ["300.00-330.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "330.00-360.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["330.00-360.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "360.00-390.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["330.00-360.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "390.00-420.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["330.00-360.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "420.00-450.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["420.00-450.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "450.00-480.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["450.00-480.00MHz(0%"]
                   }
                 }
               },
               {
                 range: "480.00-510.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["480.00-510.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "510.00-540.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["510.00-540.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "540.00-570.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["540.00-570.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "570.00-600.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["570.00-600.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "600.00-630.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["600.00-630.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "630.00-660.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["630.00-660.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "660.00-690.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["660.00-690.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "690.00-720.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["690.00-720.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "720.00-750.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["720.00-750.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "750.00-780.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["750.00-780.00MHz(0%)"]
                   }
                 }
               },
@@ -282,28 +282,28 @@ const BandsData = [
                 result: {
                   utilization: "",
                   frequencies: {
-                    utilized: [],
-                    notutilized: []
+                    utilized: ["783.00MHz- 796.00MHz(0.05%)"],
+                    notutilized: ["780MHz- 783MHz(0%)", "796MHz- 810MHz(0%)"]
                   }
                 }
               },
               {
                 range: "810.00-840.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["810.00-840.00MHz(0%)"]
                   }
                 }
               },
               {
                 range: "840.00-870.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
                     utilized: [],
-                    notutilized: []
+                    notutilized: ["840.00-870.00MHz(0%)"]
                   }
                 }
               },
@@ -312,17 +312,17 @@ const BandsData = [
                 result: {
                   utilization: "",
                   frequencies: {
-                    utilized: [],
-                    notutilized: []
+                    utilized: ["874MHz- 887MHz(73.72%)", "887MHz- 900MHz(99.98%)"],
+                    notutilized: ["870MHz- 874MHz(0%)"]
                   }
                 }
               },
               {
                 range: "900.00-930.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "99.98",
                   frequencies: {
-                    utilized: [],
+                    utilized: ["900MHz- 930MHz(99.98%)"],
                     notutilized: []
                   }
                 }
@@ -332,7 +332,7 @@ const BandsData = [
                 result: {
                   utilization: "",
                   frequencies: {
-                    utilized: [],
+                    utilized: ["930MHz- 950MHz(100%)", "950MHz- 960MHz(99.95%)"],
                     notutilized: []
                   }
                 }
