@@ -107,7 +107,7 @@ export default function Body() {
       return;
     }
 
-    if (!payload.subbandss && band !== "0-30Mhz") {
+    if (!payload.subbandss && band !== "0-30MHz") {
       setLoading(false);
       toast({
         title: 'Error',

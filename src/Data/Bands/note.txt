@@ -1,4 +1,4 @@
-Band 30Mhz-300Mhz
+Band 30MHz-300MHz
 subbands:
 [
   { range: '30.00-60.00MHz' },

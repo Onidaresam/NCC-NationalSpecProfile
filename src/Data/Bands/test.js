@@ -6,43 +6,43 @@ const BandsData = [
         {
           region:"VI",
           bands: [
-        //0hz to 30Mhz
+        //0hz to 30MHz
         {
-          range: "0-30Mhz",
+          range: "0-30MHz",
           result: {
             utilization: "90",
             frequencies: {
-              utilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"],
-              notutilized: ["900Mhz","5000Mhz","700Mhz","5000Mhz","600Mhz","4460Mhz","8500Mhz"]
+              utilized: ["100MHz","6000MHz","7000MHz","4000MHz","600MHz","3060MHz","200MHz"],
+              notutilized: ["900MHz","5000MHz","700MHz","5000MHz","600MHz","4460MHz","8500MHz"]
             }
           }
         },
-        //30Mhz to 300Mhz
+        //30MHz to 300MHz
         {
-          range: "30Mhz-300Mhz",
+          range: "30MHz-300MHz",
           subbands: [
             {
-              range: "30.00Mhz-60.00MHz",
+              range: "30.00MHz-60.00MHz",
               result: {
                 utilization: "40",
                 frequencies: {
-                  utilized: ["1500Mhz","6060Mhz","5805Mhz","45000Mhz","630Mhz","56060Mhz","5800Mhz"],
-                  notutilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"]
+                  utilized: ["1500MHz","6060MHz","5805MHz","45000MHz","630MHz","56060MHz","5800MHz"],
+                  notutilized: ["100MHz","6000MHz","7000MHz","4000MHz","600MHz","3060MHz","200MHz"]
                 }
               }
             },
             {
-              range: "60.00Mhz-90.00MHz",
+              range: "60.00MHz-90.00MHz",
               result: {
                 utilization: "60",
                 frequencies: {
-                  utilized: ["5500Mhz","4500Mhz","54000Mhz","5000Mhz","50Mhz","6060Mhz","500Mhz"],
-                  notutilized: ["5400Mhz","450Mhz","79500Mhz","4000Mhz","4300Mhz","3450Mhz","2340Mhz"]
+                  utilized: ["5500MHz","4500MHz","54000MHz","5000MHz","50MHz","6060MHz","500MHz"],
+                  notutilized: ["5400MHz","450MHz","79500MHz","4000MHz","4300MHz","3450MHz","2340MHz"]
                 }
               }
             },
             {
-              range: "90.00Mhz-120.00MHz",
+              range: "90.00MHz-120.00MHz",
               result: {
                 utilization: "",
                 frequencies: {
@@ -53,9 +53,9 @@ const BandsData = [
             }
           ]
         },
-        //300Mhz to 3Ghz
+        //300MHz to 3Ghz
         {
-            range: "300Mhz-3Ghz",
+            range: "300MHz-3Ghz",
             subbands: [
               {
                 range: "300.00-330.00MHz",
@@ -1070,43 +1070,43 @@ const BandsData = [
         {
           region:"Airport",
                 bands: [
-        //0hz to 30Mhz
+        //0hz to 30MHz
         {
-          range: "0-30Mhz",
+          range: "0-30MHz",
           result: {
             utilization: "50",
             frequencies: {
-              utilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"],
-              notutilized: ["900Mhz","5000Mhz","700Mhz","5000Mhz","600Mhz","4460Mhz","8500Mhz"]
+              utilized: ["100MHz","6000MHz","7000MHz","4000MHz","600MHz","3060MHz","200MHz"],
+              notutilized: ["900MHz","5000MHz","700MHz","5000MHz","600MHz","4460MHz","8500MHz"]
             }
           }
         },
-        //30Mhz to 300Mhz
+        //30MHz to 300MHz
         {
-          range: "30Mhz-300Mhz",
+          range: "30MHz-300MHz",
           subbands: [
             {
-              range: "30.00Mhz-60.00MHz",
+              range: "30.00MHz-60.00MHz",
               result: {
                 utilization: "40",
                 frequencies: {
-                  utilized: ["1500Mhz","6060Mhz","5805Mhz","45000Mhz","630Mhz","56060Mhz","5800Mhz"],
-                  notutilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"]
+                  utilized: ["1500MHz","6060MHz","5805MHz","45000MHz","630MHz","56060MHz","5800MHz"],
+                  notutilized: ["100MHz","6000MHz","7000MHz","4000MHz","600MHz","3060MHz","200MHz"]
                 }
               }
             },
             {
-              range: "60.00Mhz-90.00MHz",
+              range: "60.00MHz-90.00MHz",
               result: {
                 utilization: "60",
                 frequencies: {
-                  utilized: ["5500Mhz","4500Mhz","54000Mhz","5000Mhz","50Mhz","6060Mhz","500Mhz"],
-                  notutilized: ["5400Mhz","450Mhz","79500Mhz","4000Mhz","4300Mhz","3450Mhz","2340Mhz"]
+                  utilized: ["5500MHz","4500MHz","54000MHz","5000MHz","50MHz","6060MHz","500MHz"],
+                  notutilized: ["5400MHz","450MHz","79500MHz","4000MHz","4300MHz","3450MHz","2340MHz"]
                 }
               }
             },
             {
-              range: "90.00Mhz-120.00MHz",
+              range: "90.00MHz-120.00MHz",
               result: {
                 utilization: "",
                 frequencies: {
@@ -1117,9 +1117,9 @@ const BandsData = [
             }
           ]
         },
-        //300Mhz to 3Ghz
+        //300MHz to 3Ghz
         {
-            range: "300Mhz-3Ghz",
+            range: "300MHz-3Ghz",
             subbands: [
               {
                 range: "300.00-330.00MHz",
@@ -2134,43 +2134,43 @@ const BandsData = [
         {
           region:"Alausa",
                 bands: [
-        //0hz to 30Mhz
+        //0hz to 30MHz
         {
-          range: "0-30Mhz",
+          range: "0-30MHz",
           result: {
             utilization: "50",
             frequencies: {
-              utilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"],
-              notutilized: ["900Mhz","5000Mhz","700Mhz","5000Mhz","600Mhz","4460Mhz","8500Mhz"]
+              utilized: ["100MHz","6000MHz","7000MHz","4000MHz","600MHz","3060MHz","200MHz"],
+              notutilized: ["900MHz","5000MHz","700MHz","5000MHz","600MHz","4460MHz","8500MHz"]
             }
           }
         },
-        //30Mhz to 300Mhz
+        //30MHz to 300MHz
         {
-          range: "30Mhz-300Mhz",
+          range: "30MHz-300MHz",
           subbands: [
             {
-              range: "30.00Mhz-60.00MHz",
+              range: "30.00MHz-60.00MHz",
               result: {
                 utilization: "40",
                 frequencies: {
-                  utilized: ["1500Mhz","6060Mhz","5805Mhz","45000Mhz","630Mhz","56060Mhz","5800Mhz"],
-                  notutilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"]
+                  utilized: ["1500MHz","6060MHz","5805MHz","45000MHz","630MHz","56060MHz","5800MHz"],
+                  notutilized: ["100MHz","6000MHz","7000MHz","4000MHz","600MHz","3060MHz","200MHz"]
                 }
               }
             },
             {
-              range: "60.00Mhz-90.00MHz",
+              range: "60.00MHz-90.00MHz",
               result: {
                 utilization: "60",
                 frequencies: {
-                  utilized: ["5500Mhz","4500Mhz","54000Mhz","5000Mhz","50Mhz","6060Mhz","500Mhz"],
-                  notutilized: ["5400Mhz","450Mhz","79500Mhz","4000Mhz","4300Mhz","3450Mhz","2340Mhz"]
+                  utilized: ["5500MHz","4500MHz","54000MHz","5000MHz","50MHz","6060MHz","500MHz"],
+                  notutilized: ["5400MHz","450MHz","79500MHz","4000MHz","4300MHz","3450MHz","2340MHz"]
                 }
               }
             },
             {
-              range: "90.00Mhz-120.00MHz",
+              range: "90.00MHz-120.00MHz",
               result: {
                 utilization: "",
                 frequencies: {
@@ -2181,9 +2181,9 @@ const BandsData = [
             }
           ]
         },
-        //300Mhz to 3Ghz
+        //300MHz to 3Ghz
         {
-            range: "300Mhz-3Ghz",
+            range: "300MHz-3Ghz",
             subbands: [
               {
                 range: "300.00-330.00MHz",
@@ -3202,43 +3202,43 @@ const BandsData = [
       id: 2,
       location: "Ilorin",
       bands: [
-        //0hz to 30Mhz
+        //0hz to 30MHz
         {
-          range: "0-30Mhz",
+          range: "0-30MHz",
           result: {
             utilization: "50",
             frequencies: {
-              utilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"],
-              notutilized: ["900Mhz","5000Mhz","700Mhz","5000Mhz","600Mhz","4460Mhz","8500Mhz"]
+              utilized: ["100MHz","6000MHz","7000MHz","4000MHz","600MHz","3060MHz","200MHz"],
+              notutilized: ["900MHz","5000MHz","700MHz","5000MHz","600MHz","4460MHz","8500MHz"]
             }
           }
         },
-        //30Mhz to 300Mhz
+        //30MHz to 300MHz
         {
-          range: "30Mhz-300Mhz",
+          range: "30MHz-300MHz",
           subbands: [
             {
-              range: "30.00Mhz-60.00MHz",
+              range: "30.00MHz-60.00MHz",
               result: {
                 utilization: "40",
                 frequencies: {
-                  utilized: ["1500Mhz","6060Mhz","5805Mhz","45000Mhz","630Mhz","56060Mhz","5800Mhz"],
-                  notutilized: ["100Mhz","6000Mhz","7000Mhz","4000Mhz","600Mhz","3060Mhz","200Mhz"]
+                  utilized: ["1500MHz","6060MHz","5805MHz","45000MHz","630MHz","56060MHz","5800MHz"],
+                  notutilized: ["100MHz","6000MHz","7000MHz","4000MHz","600MHz","3060MHz","200MHz"]
                 }
               }
             },
             {
-              range: "60.00Mhz-90.00MHz",
+              range: "60.00MHz-90.00MHz",
               result: {
                 utilization: "60",
                 frequencies: {
-                  utilized: ["5500Mhz","4500Mhz","54000Mhz","5000Mhz","50Mhz","6060Mhz","500Mhz"],
-                  notutilized: ["5400Mhz","450Mhz","79500Mhz","4000Mhz","4300Mhz","3450Mhz","2340Mhz"]
+                  utilized: ["5500MHz","4500MHz","54000MHz","5000MHz","50MHz","6060MHz","500MHz"],
+                  notutilized: ["5400MHz","450MHz","79500MHz","4000MHz","4300MHz","3450MHz","2340MHz"]
                 }
               }
             },
             {
-              range: "90.00Mhz-120.00MHz",
+              range: "90.00MHz-120.00MHz",
               result: {
                 utilization: "",
                 frequencies: {
@@ -3249,9 +3249,9 @@ const BandsData = [
             }
           ]
         },
-        //300Mhz to 3Ghz
+        //300MHz to 3Ghz
         {
-            range: "300Mhz-3Ghz",
+            range: "300MHz-3Ghz",
             subbands: [
               {
                 range: "300.00-330.00MHz",
@@ -4306,13 +4306,13 @@ function getResultObject(data) {
   const dataWithRegion = {
     location: 'Lagos',
     region: 'VI',
-    bands: '30Mhz-300Mhz',
-    subbandss: '60.00Mhz-90.00MHz',
+    bands: '30MHz-300MHz',
+    subbandss: '60.00MHz-90.00MHz',
   };
   
   const dataWithoutRegion = {
     location: 'Ilorin',
-    bands: '0-30Mhz',
+    bands: '0-30MHz',
   };
 
  
@@ -4321,7 +4321,7 @@ function getResultObject(data) {
   const dataWithoutSubband = {
     location: 'Lagos',
     region: 'VI',
-    bands: '0-30Mhz'
+    bands: '0-30MHz'
 
   };
   
@@ -4330,7 +4330,7 @@ function getResultObject(data) {
   const resultWithoutRegion = getResultObject(dataWithoutRegion);
   const resultWithoutSubband = getResultObject(dataWithoutSubband);
   
-  console.log(resultWithRegion); // This will give you the corresponding result object for Lagos, VI, 30Mhz-300Mhz, 60.00Mhz-90.00MHz
-  console.log(resultWithoutRegion); // This will give you the corresponding result object for ilorin, 0-30Mhz
+  console.log(resultWithRegion); // This will give you the corresponding result object for Lagos, VI, 30MHz-300MHz, 60.00MHz-90.00MHz
+  console.log(resultWithoutRegion); // This will give you the corresponding result object for ilorin, 0-30MHz
   console.log(resultWithoutSubband); // This will give you null since subbands are not provided
   
