@@ -5805,7 +5805,7 @@ const BandsData = [
                 utilization: "0",
                 frequencies: {
                   utilized: [],
-                  notutilized: ["450.00-459.00MHz(0%","459.00-469.00MHz(0%)","459.00-480.00MHz(0%)"]
+                  notutilized: ["450.00-459.00MHz(0%)","459.00-469.00MHz(0%)","459.00-480.00MHz(0%)"]
                 }
               }
             },
@@ -5974,7 +5974,7 @@ const BandsData = [
               result: {
                 utilization: "99.76",
                 frequencies: {
-                  utilized: [c, "965MHz- 978MHz(99.74%)","978MHz- 990MHz(99.74%)"],
+                  utilized: ["965MHz- 978MHz(99.74%)","978MHz- 990MHz(99.74%)"],
                   notutilized: []
                 }
               }
