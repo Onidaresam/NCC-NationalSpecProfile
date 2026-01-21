@@ -12698,7 +12698,7 @@ const BandsData = [
 
       ]
 
-      }
+      },
         //0hz to 30MHz
         {
           range: "100KHZ-30MHz",
