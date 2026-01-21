@@ -11568,7 +11568,6 @@ const BandsData = [
                   { range: "5970.00MHz-6000.00MHz", result: { utilization: "100", frequencies: { utilized: ["5970.00MHz-5990.00MHz(100%)",  "5990.00MHz-6000.00MHz(100%)"], notutilized: [] } } },
                ]
             },
-
       ]
       },
         
