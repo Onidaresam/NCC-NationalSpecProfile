@@ -11678,6 +11678,117 @@ const BandsData = [
 
       ]
 
-      }
-  ];
+      },
+  {
+      id: 9,
+      location: "Owerri",
+ bands: [
+        //0hz to 30MHz
+        {
+          range: "100KHZ-30MHz",
+          result: {
+            utilization: "33.33",
+            frequencies: {
+              utilized: ["100KHz - 13.14MHz(100%)"],
+              notutilized: ["13.14MHz - 26.19MHz","26.19MHz - 30.00MHz"]
+            }
+          }
+        },
+        //30MHz to 300MHz
+        {
+          range: "30MHz-300MHz",
+          subbands: [
+            {
+              "range": "30.00MHz - 60.00MHz",
+              "result": {
+                "utilization": "0.00",
+                "frequencies": {
+                  "utilized": [],
+                  "notutilized": ["30.00MHz - 39.23MHz (0%),” “39.23MHz - 52.27MHz (0%)”, “53.27MHz - 60.00MHz(0%)” ]
+                }
+              }
+            },
+            {
+              "range": "60.00MHz - 90.00MHz",
+              "result": {
+                "utilization": "21.79",
+                "frequencies": {
+                  "utilized": [“78.36MHz - 90.00MHz (65.23%)"],
+                  "notutilized": ["60.00MHz - 65.32MHz(0%)","65.32MHz - 78.36MHz(0%)"]
+                }
+              }
+            },
+            {
+              "range": "90.00MHz - 120.00MHz",
+              "result": {
+                "utilization": "16.79",
+                "frequencies": {
+                  "utilized": ["90.00MHz - 91.40MHz(65.23%)", "91.40MHz -104.45MHz (0.60%)"],
+                  "notutilized": ["104.45MHz - 117.49MHz (0%)", “117.49MHz - 120.00MHz (0%)"]
+                }
+              }
+            },
+            {
+              "range": "120.00MHz - 150.00MHz",
+              "result": {
+                "utilization": "0",
+                "frequencies": {
+                  "utilized": [],
+                  "notutilized": ["120.00MHz - 130.53MHz (0%)","130.53MHz - 143.58MHz (0%)", “143.58MHz - 150.00MHz (0%)”]
+                }
+              }
+            },
+            {
+              "range": "150.00MHz - 180.00MHz",
+              "result": {
+                "utilization": "0",
+                "frequencies": {
+                  "utilized": [],
+                  "notutilized": ["150.00MHz - 156.62MHz (0%)", "156.62MHz - 169.66MHz (0%)","169.66MHz - 180.00MHz (0%)"]
+                }
+              }
+            },
+            {
+              "range": "180.00MHz - 210.00MHz",
+              "result": {
+                "utilization": "0",
+                "frequencies": {
+                  "utilized": [],
+                  "notutilized": ["180.00MHz -182.71MHz (0%)","182.71MHz - 195.75MHz (0%)","195.75MHz - 208.79MHz (0%)", "208.79MHz - 210.00MHz (0%)"]
+                }
+              }
+            },
+            {
+              "range": "210.00MHz - 240.00MHz",
+              "result": {
+                "utilization": "0",
+                "frequencies": {
+                  "utilized": [],
+                  "notutilized": ["210.00MHz - 221.84MHz (0%)","221.84MHz - 234.88MHz (0%)", "234.88MHz - 240.00MHz (0%)"]
+                }
+              }
+            },
+            {
+              "range": "240.00MHz - 270.00MHz",
+              "result": {
+                "utilization": "0",
+                "frequencies": {
+                  "utilized": [],
+                  "notutilized": ["240.00MHz - 247.92MHz (0%)", "247.92MHz - 260.87MHz (0%)", "260.87MHz - 270.00MHz (0%)"]
+                }
+              }
+            },
+            {
+              "range": "270.00MHz - 300.00MHz",
+              "result": {
+                "utilization": "0",
+                "frequencies": {
+                  "utilized": [],
+                  "notutilized": ["270.00MHz - 274.00MHz (0%)","274.00MHz - 287.05MHz (0%)", "287.05MHz - 300.00MHz (0%)"]
+                }
+              }
+            }
+          ]
+        },
+];
 export default BandsData
