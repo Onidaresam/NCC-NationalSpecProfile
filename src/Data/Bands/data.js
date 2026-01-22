@@ -11864,5 +11864,5 @@ const BandsData = [
         },
       ]
       }     
-]
+];
 export default BandsData
