@@ -11170,7 +11170,7 @@ const BandsData = [
               {
                 range: "1800.00-1830.00MHz",
                 result: {
-                  utilization: "99.96%,
+                  utilization: "99.96%",
                   frequencies: {
                     utilized: ["1800.00-1813.00MHz(99.92%)","1813.00-1826.00MHz(99.97%)", "1826.00-1830.00MHz(99.99%)"],
                     notutilized: []
@@ -11210,7 +11210,7 @@ const BandsData = [
               {
                 range: "1920.00-1950.00MHz",
                 result: {
-                  utilization: "99.93%,
+                  utilization: "99.93"%,
                   frequencies: {
                     utilized: ["1920.00-1930.00MHz(99.73%)","1930.00-1944.00MHz(100%)", "1944.00-1950.00MHz(100%)"],
                     notutilized: []
@@ -11501,7 +11501,7 @@ const BandsData = [
                 result: {
                   utilization: "57.37",
                   frequencies: {
-                    utilized: ["2790.00-2791.00MHz(56.14%)","2791.00-2804.00MHz(57.43%)", "2804.00-2817.00MHz(57.43%)" "2817.00-2820.00MHz(58.55%)"],
+                    utilized: ["2790.00-2791.00MHz(56.14%)","2791.00-2804.00MHz(57.43%)", "2804.00-2817.00MHz(57.43%)" ,"2817.00-2820.00MHz(58.55%)"],
                     notutilized: []
                   }
                 }
