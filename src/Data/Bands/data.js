@@ -10992,7 +10992,7 @@ const BandsData = [
                 result: {
                   utilization: "99.02",
                   frequencies: {
-                    utilized: ["1260.00-1270.00MHz(99.37%)","1270.00-1280.00MHz(98.83%)", "1280.00-1290.00MHz(98.87%)",]
+                    utilized: ["1260.00-1270.00MHz(99.37%)","1270.00-1280.00MHz(98.83%)", "1280.00-1290.00MHz(98.87%)"],
                     notutilized: []
                   }
                 }
@@ -11002,7 +11002,7 @@ const BandsData = [
                 result: {
                   utilization: "98.91",
                   frequencies: {
-                    utilized: ["1290.00-1300.00MHz(98.87%)", "1300.00-1320.00MHz(99.26%)"]
+                    utilized: ["1290.00-1300.00MHz(98.87%)", "1300.00-1320.00MHz(99.26%)"],
                     notutilized: []
                   }
                 }
@@ -11012,7 +11012,7 @@ const BandsData = [
                 result: {
                   utilization: "98.59",
                   frequencies: {
-                    utilized: ["1320.00-1330.00MHz(98.61%)", "1330.00-1340.00MHz(98.32%)", "1340.00-1350.00MHz(98.72%)",]
+                    utilized: ["1320.00-1330.00MHz(98.61%)", "1330.00-1340.00MHz(98.32%)", "1340.00-1350.00MHz(98.72%)"],
                     notutilized: []
                   }
                 }
@@ -11022,7 +11022,7 @@ const BandsData = [
                 result: {
                   utilization: "98.99",
                   frequencies: {
-                    utilized: ["1350.00-1360.00MHz(98.73%)","1360.00-1370.00MHz(98.93%)", "1370.00-1380.00MHz(99.34%)",]
+                    utilized: ["1350.00-1360.00MHz(98.73%)","1360.00-1370.00MHz(98.93%)", "1370.00-1380.00MHz(99.34%)"],
                     notutilized: []
                   }
                 }
@@ -11032,7 +11032,7 @@ const BandsData = [
                 result: {
                   utilization: "99.53",
                   frequencies: {
-                    utilized: ["1380.00-1400.00MHz(99.34%)","1400.00-1410.00MHz(99.60%)"]
+                    utilized: ["1380.00-1400.00MHz(99.34%)","1400.00-1410.00MHz(99.60%)"],
                     notutilized: []
                   }
                 }
@@ -11042,7 +11042,7 @@ const BandsData = [
                 result: {
                   utilization: "99.70",
                   frequencies: {
-                    utilized: ["1410.00-1420.00MHz(99.64%)","1420.00-1430.00MHz(99.70%)","1430.00-1440.00MHz(99.79%)"]
+                    utilized: ["1410.00-1420.00MHz(99.64%)","1420.00-1430.00MHz(99.70%)","1430.00-1440.00MHz(99.79%)"],
                     notutilized: []
                   }
                 }
@@ -11052,7 +11052,7 @@ const BandsData = [
                 result: {
                   utilization: "99.82",
                   frequencies: {
-                    utilized: ["1440.00-1450.00MHz(99.67%)", "1450.00-1460.00MHz(99.89%)", "1460.00-1470.00MHz(99.89%)"]
+                    utilized: ["1440.00-1450.00MHz(99.67%)", "1450.00-1460.00MHz(99.89%)", "1460.00-1470.00MHz(99.89%)"],
                     notutilized: []
                   }
                 }
@@ -11062,7 +11062,7 @@ const BandsData = [
                 result: {
                   utilization: "99.92%",
                   frequencies: {
-                    utilized: ["1470.00-1490.00MHz(99.89%)", "1490.00-1500.00MHz(99.93%)"]
+                    utilized: ["1470.00-1490.00MHz(99.89%)", "1490.00-1500.00MHz(99.93%)"],
                     notutilized: []
                   }
                 }
@@ -11072,7 +11072,7 @@ const BandsData = [
                 result: {
                   utilization: "99.91%",
                   frequencies: {
-                    utilized: ["1500.00-1510.00MHz(99.96%)","1510.00-1530.00MHz(99.90%)"]
+                    utilized: ["1500.00-1510.00MHz(99.96%)","1510.00-1530.00MHz(99.90%)"],
                     notutilized: []
                   }
                 }
@@ -11082,7 +11082,7 @@ const BandsData = [
                 result: {
                   utilization: "99.81%",
                   frequencies: {
-                    utilized: ["1530.00-1540.00MHz(99.88%)", "1540.00-1550.00MHz(99.86%)", "1550.00-1560.00MHz(99.77%)"]
+                    utilized: ["1530.00-1540.00MHz(99.88%)", "1540.00-1550.00MHz(99.86%)", "1550.00-1560.00MHz(99.77%)"],
                     notutilized: []
                   }
                 }
@@ -11092,7 +11092,7 @@ const BandsData = [
                 result: {
                   utilization: "99.50%",
                   frequencies: {
-                    utilized: ["1560.00-1570.00MHz(99.72%)", "1570.00-1580.00MHz(99.46%)","1580.00-1590.00MHz(99.32%)",]
+                    utilized: ["1560.00-1570.00MHz(99.72%)", "1570.00-1580.00MHz(99.46%)","1580.00-1590.00MHz(99.32%)"],
                     notutilized: []
                   }
                 }
@@ -11102,7 +11102,7 @@ const BandsData = [
                 result: {
                   utilization: "99.36%,
                   frequencies: {
-                    utilized: ["1590.00-1600.00MHz(99.32%)", "1600.00-1620.00MHz(99.61%)"]
+                    utilized: ["1590.00-1600.00MHz(99.32%)", "1600.00-1620.00MHz(99.61%)"],
                     notutilized: []
                   }
                 }
@@ -11112,7 +11112,7 @@ const BandsData = [
                 result: {
                   utilization: "99.34%",
                   frequencies: {
-                    utilized: ["1620.00-1630.00MHz(99.15%)", "1630.00-1640.00MHz(99.37%)", "1640.00-1650.00MHz(99.24%)"]
+                    utilized: ["1620.00-1630.00MHz(99.15%)", "1630.00-1640.00MHz(99.37%)", "1640.00-1650.00MHz(99.24%)"],
                     notutilized: []
                   }
                 }
@@ -11122,7 +11122,7 @@ const BandsData = [
                 result: {
                   utilization: "99.57%",
                   frequencies: {
-                    utilized: ["1650.00-1660.00MHz(99.57%)", "1660.00-1670.00MHz(99.44%)","1670.00-1680.00MHz(99.71%)",]
+                    utilized: ["1650.00-1660.00MHz(99.57%)", "1660.00-1670.00MHz(99.44%)","1670.00-1680.00MHz(99.71%)"],
                     notutilized: []
                   }
                 }
@@ -11132,7 +11132,7 @@ const BandsData = [
                 result: {
                   utilization: "99.67%",
                   frequencies: {
-                    utilized: ["1680.00-1700.00MHz(99.71%)", "1700.00-1710.00MHz(99.52%)"]
+                    utilized: ["1680.00-1700.00MHz(99.71%)", "1700.00-1710.00MHz(99.52%)"],
                     notutilized: []
                   }
                 }
@@ -11142,7 +11142,7 @@ const BandsData = [
                 result: {
                   utilization: "99.84",
                   frequencies: {
-                    utilized: ["1710.00-1722.00MHz(99.79%)", "1722.00-1735.00MHz(99.82%)", "1735.00-1740.00MHz(99.86%)"]
+                    utilized: ["1710.00-1722.00MHz(99.79%)", "1722.00-1735.00MHz(99.82%)", "1735.00-1740.00MHz(99.86%)"],
                     notutilized: []
                   }
                 }
@@ -11152,7 +11152,7 @@ const BandsData = [
                 result: {
                   utilization: "99.89%",
                   frequencies: {
-                    utilized: ["1740.00-1748.00MHz(99.87%)","1748.00-1761.00MHz(99.88%)", "1761.00-1770.00MHz(99.89%)",]
+                    utilized: ["1740.00-1748.00MHz(99.87%)","1748.00-1761.00MHz(99.88%)", "1761.00-1770.00MHz(99.89%)"],
                     notutilized: []
                   }
                 }
@@ -11162,7 +11162,7 @@ const BandsData = [
                 result: {
                   utilization: "99.91%",
                   frequencies: {
-                    utilized: ["1770.00-1774.00MHz(99.91%)","1774.00-1787.00MHz(99.92%)", "1787.00-1800.00MHz(99.92%)"]
+                    utilized: ["1770.00-1774.00MHz(99.91%)","1774.00-1787.00MHz(99.92%)", "1787.00-1800.00MHz(99.92%)"],
                     notutilized: []
                   }
                 }
@@ -11172,7 +11172,7 @@ const BandsData = [
                 result: {
                   utilization: "99.96%,
                   frequencies: {
-                    utilized: ["1800.00-1813.00MHz(99.92%)","1813.00-1826.00MHz(99.97%)", "1826.00-1830.00MHz(99.99%)"]
+                    utilized: ["1800.00-1813.00MHz(99.92%)","1813.00-1826.00MHz(99.97%)", "1826.00-1830.00MHz(99.99%)"],
                     notutilized: []
                   }
                 }
@@ -11182,7 +11182,7 @@ const BandsData = [
                 result: {
                   utilization: "100%",
                   frequencies: {
-                    utilized: ["1830.00-1839.00MHz(100%)", "1839.00-1852.00MHz(100%)", "1852.00-1860.00MHz(100%)"]
+                    utilized: ["1830.00-1839.00MHz(100%)", "1839.00-1852.00MHz(100%)", "1852.00-1860.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11192,7 +11192,7 @@ const BandsData = [
                 result: {
                   utilization: "99.95",
                   frequencies: {
-                    utilized: ["1860.00-1865.00MHz(100%)", "1865.00-1878.00MHz(100%)", "1878.00-1890.00MHz(99.99%)"]
+                    utilized: ["1860.00-1865.00MHz(100%)", "1865.00-1878.00MHz(100%)", "1878.00-1890.00MHz(99.99%)"],
                     notutilized: []
                   }
                 }
@@ -11202,7 +11202,7 @@ const BandsData = [
                 result: {
                   utilization: "99.77%",
                   frequencies: {
-                    utilized: ["1890.00-1891.00MHz(99.81%)", "1891.00-1904.00MHz(99.77%)", "1904.00-1917.00MHz(99.73%)","1917.00-1920.00MHz(99.73%)"]
+                    utilized: ["1890.00-1891.00MHz(99.81%)", "1891.00-1904.00MHz(99.77%)", "1904.00-1917.00MHz(99.73%)","1917.00-1920.00MHz(99.73%)"],
                     notutilized: []
                   }
                 }
@@ -11212,7 +11212,7 @@ const BandsData = [
                 result: {
                   utilization: "99.93%,
                   frequencies: {
-                    utilized: ["1920.00-1930.00MHz(99.73%)","1930.00-1944.00MHz(100%)", "1944.00-1950.00MHz(100%)"]
+                    utilized: ["1920.00-1930.00MHz(99.73%)","1930.00-1944.00MHz(100%)", "1944.00-1950.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11222,7 +11222,7 @@ const BandsData = [
                 result: {
                   utilization: "100%",
                   frequencies: {
-                    utilized: ["1950.00-1956.00MHz(100%)","1957.00-1969.00MHz(100%)", "1969.00-1980.00MHz(100%)"]
+                    utilized: ["1950.00-1956.00MHz(100%)","1957.00-1969.00MHz(100%)", "1969.00-1980.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11232,7 +11232,7 @@ const BandsData = [
                 result: {
                   utilization: "100%",
                   frequencies: {
-                    utilized: ["1980.00-1983.00MHz(100%)", "1983.00-1996.00MHz(100%)", "1996.00-2009.00MHz(100%)","2009.00-2010.00MHz(100%)",]
+                    utilized: ["1980.00-1983.00MHz(100%)", "1983.00-1996.00MHz(100%)", "1996.00-2009.00MHz(100%)","2009.00-2010.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11242,7 +11242,7 @@ const BandsData = [
                 result: {
                   utilization: "95.89",
                   frequencies: {
-                    utilized: ["2010.00-2022.00MHz(100%)","2022.00-2035.00MHz(100%)", "2035.00-2040.00MHz(100%)"]
+                    utilized: ["2010.00-2022.00MHz(100%)","2022.00-2035.00MHz(100%)", "2035.00-2040.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11252,7 +11252,7 @@ const BandsData = [
                 result: {
                   utilization: "100",
                   frequencies: {
-                    utilized: ["2040.00-2047.00MHz(100%)", "2048.00-2061.00MHz(100%)", "2061.00-2070.00MHz(100%)"]
+                    utilized: ["2040.00-2047.00MHz(100%)", "2048.00-2061.00MHz(100%)", "2061.00-2070.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11262,7 +11262,7 @@ const BandsData = [
                 result: {
                   utilization: "100",
                   frequencies: {
-                    utilized: ["2070.00-2073.00MHz(100%)", "2074.00-2087.00MHz(100%)", "2087.00-2100.00MHz(100%)",]
+                    utilized: ["2070.00-2073.00MHz(100%)", "2074.00-2087.00MHz(100%)", "2087.00-2100.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11272,7 +11272,7 @@ const BandsData = [
                 result: {
                   utilization: "100",
                   frequencies: {
-                    utilized: ["2100.00-2113.00MHz(100%)", "2113.00-2126.00MHz(100%)""2126.00-2130.00MHz(100%)"]
+                    utilized: ["2100.00-2113.00MHz(100%)", "2113.00-2126.00MHz(100%)","2126.00-2130.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11282,7 +11282,7 @@ const BandsData = [
                 result: {
                   utilization: "100",
                   frequencies: {
-                    utilized: ["2130.00-2139.00MHz(100%)","2139.00-2152.00MHz(100%)", "2152.00-2160.00MHz(100%)"]
+                    utilized: ["2130.00-2139.00MHz(100%)","2139.00-2152.00MHz(100%)", "2152.00-2160.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11292,7 +11292,7 @@ const BandsData = [
                 result: {
                   utilization: "100",
                   frequencies: {
-                    utilized: ["2160.00-2165.00MHz(100%)", "2165.00-2178.00MHz(100%)", "2178.00-2190.00MHz(100%)"]
+                    utilized: ["2160.00-2165.00MHz(100%)", "2165.00-2178.00MHz(100%)", "2178.00-2190.00MHz(100%)"],
                     notutilized: []
                   }
                 }
@@ -11302,7 +11302,7 @@ const BandsData = [
                 result: {
                   utilization: "61.24",
                   frequencies: {
-                    utilized: ["2190.00-2191.00MHz(100%)", "2191.00-2204.00MHz(42.27%)","2204.00-2217.00MHz(42.27%)","2217.00-2220.00MHz(41.44%)"]
+                    utilized: ["2190.00-2191.00MHz(100%)", "2191.00-2204.00MHz(42.27%)","2204.00-2217.00MHz(42.27%)","2217.00-2220.00MHz(41.44%)"],
                     notutilized: []
                   }
                 }
@@ -11312,7 +11312,7 @@ const BandsData = [
                 result: {
                   utilization: "41.78",
                   frequencies: {
-                    utilized: ["2220.00-2230.00MHz(41.44%)", "2230.00-2243.00MHz(42.29%)", "2243.00-2250.00MHz(41.04%)",]
+                    utilized: ["2220.00-2230.00MHz(41.44%)", "2230.00-2243.00MHz(42.29%)", "2243.00-2250.00MHz(41.04%)"],
                     notutilized: []
                   }
                 }
@@ -11322,7 +11322,7 @@ const BandsData = [
                 result: {
                   utilization: "41.55",
                   frequencies: {
-                    utilized: ["2250.00-2256.00MHz(41.04%)", "2256.00-2269.00MHz(42.36%)", "2269.00-2280.00MHz(40.92%)"]
+                    utilized: ["2250.00-2256.00MHz(41.04%)", "2256.00-2269.00MHz(42.36%)", "2269.00-2280.00MHz(40.92%)"],
                     notutilized: []
                   }
                 }
@@ -11332,7 +11332,7 @@ const BandsData = [
                 result: {
                   utilization: "42.75",
                   frequencies: {
-                    utilized: ["2280.00-2282.00MHz(41.88%)", "2282.00-2296.00MHz(41.88%)", "2296.00-2308.00MHz(42.24%)","2308.00-2310.00MHz(44.12%)"]
+                    utilized: ["2280.00-2282.00MHz(41.88%)", "2282.00-2296.00MHz(41.88%)", "2296.00-2308.00MHz(42.24%)","2308.00-2310.00MHz(44.12%)"],
                     notutilized: []
                   }
                 }
@@ -11342,7 +11342,7 @@ const BandsData = [
                 result: {
                   utilization: "55.38",
                   frequencies: {
-                    utilized: ["2310.00-2321.00MHz(44.12%)", "2321.00-2335.00MHz(42.21%)", "2335.00-2340.00MHz(52.47%)",]
+                    utilized: ["2310.00-2321.00MHz(44.12%)", "2321.00-2335.00MHz(42.21%)", "2335.00-2340.00MHz(52.47%)"],
                     notutilized: []
                   }
                 }
@@ -11352,7 +11352,7 @@ const BandsData = [
                 result: {
                   utilization: "63.21",
                   frequencies: {
-                    utilized: ["2340.00-2347.00MHz(52.47%)", "2347.00-2361.00MHz(82.74%)","2361.00-2370.00MHz(73.37%)"]
+                    utilized: ["2340.00-2347.00MHz(52.47%)", "2347.00-2361.00MHz(82.74%)","2361.00-2370.00MHz(73.37%)"],
                     notutilized: []
                   }
                 }
@@ -11362,7 +11362,7 @@ const BandsData = [
                 result: {
                   utilization: "45.95",
                   frequencies: {
-                    utilized: ["2370.00-2374.00MHz(44.28%)", "2374.00-2387.00MHz(44.28%)","2387.00-2400.00MHz(45.68%)"]
+                    utilized: ["2370.00-2374.00MHz(44.28%)", "2374.00-2387.00MHz(44.28%)","2387.00-2400.00MHz(45.68%)"],
                     notutilized: []
                   }
                 }
@@ -11372,7 +11372,7 @@ const BandsData = [
                 result: {
                   utilization: "50.79",
                   frequencies: {
-                    utilized: ["2400.00-2413.00MHz(47.88%)", "2413.00-2426.00MHz(51.18%)","2426.00-2430.00MHz(53.31%)",],
+                    utilized: ["2400.00-2413.00MHz(47.88%)", "2413.00-2426.00MHz(51.18%)","2426.00-2430.00MHz(53.31%)"],
                     notutilized: []
                   }
                 }
@@ -11382,7 +11382,7 @@ const BandsData = [
                 result: {
                   utilization: "52.93",
                   frequencies: {
-                    utilized: ["2430.00-2439.00MHz(53.31%)", "2439.00-2452.00MHz(53.02%)", "2452.00-2460.00MHz(53.49%)"]
+                    utilized: ["2430.00-2439.00MHz(53.31%)", "2439.00-2452.00MHz(53.02%)", "2452.00-2460.00MHz(53.49%)"],
                     notutilized: []
                   }
                 }
@@ -11392,7 +11392,7 @@ const BandsData = [
                 result: {
                   utilization: "50.75",
                   frequencies: {
-                    utilized: ["2460.00-2465.00MHz(53.49%)" "2465.00-2478.00MHz(51.88%)" "2478.00-2490.00MHz(49.09%)"]
+                    utilized: ["2460.00-2465.00MHz(53.49%)", "2465.00-2478.00MHz(51.88%)" ,"2478.00-2490.00MHz(49.09%)"],
                     notutilized: []
                   }
                 }
@@ -11402,7 +11402,7 @@ const BandsData = [
                 result: {
                   utilization: "50.18",
                   frequencies: {
-                    utilized: ["2490.00-2491.00MHz(48.53%)" "2491.00-2504.00MHz(50.21%)" "2504.00-2517.00MHz(50.21%)"  "2517.00-2520.00MHz(51.80%)"]                    notutilized: []
+                    utilized: ["2490.00-2491.00MHz(48.53%)", "2491.00-2504.00MHz(50.21%)", "2504.00-2517.00MHz(50.21%)"  "2517.00-2520.00MHz(51.80%)"],                    notutilized: []
                   }
                 }
               },
@@ -11411,7 +11411,7 @@ const BandsData = [
                 result: {
                   utilization: "52.29",
                   frequencies: {
-                    utilized: [ "2520.00-2530.00MHz(51.80%)" "2530.00-2544.00MHz(52.61%)"  "2544.00-2550.00MHz(52.43%)"],
+                    utilized: [ "2520.00-2530.00MHz(51.80%)", "2530.00-2544.00MHz(52.61%)",  "2544.00-2550.00MHz(52.43%)"],
                     notutilized: []
                   }
                 }
@@ -11421,7 +11421,7 @@ const BandsData = [
                 result: {
                   utilization: "54.04",
                   frequencies: {
-                    utilized: [ "2550.00-2556.00MHz(52.43%)"  "2556.00-2569.00MHz(52.31%)"  "2569.00-2580.00MHz(52.92%)"]
+                    utilized: [ "2550.00-2556.00MHz(52.43%)" , "2556.00-2569.00MHz(52.31%)", "2569.00-2580.00MHz(52.92%)"],
                     notutilized: []
                   }
                 }
@@ -11431,7 +11431,7 @@ const BandsData = [
                 result: {
                   utilization: "57.02",
                   frequencies: {
-                    utilized: [ "2580.00-2582.00MHz(58.49%)", "2582.00-2595.00MHz(58.49%)",  "2595.00-2608.00MHz(57.12%)" "2608.00-2610.00MHz(55.45%)"]
+                    utilized: [ "2580.00-2582.00MHz(58.49%)", "2582.00-2595.00MHz(58.49%)",  "2595.00-2608.00MHz(57.12%)", "2608.00-2610.00MHz(55.45%)"],
                     notutilized: []
                   }
                 }
@@ -11441,7 +11441,7 @@ const BandsData = [
                 result: {
                   utilization: "76.30",
                   frequencies: {
-                    utilized: ["2610.00-2622.00MHz(55.45%)","2622.00-2635.00MHz(81.47%)", "2635.00-2640.00MHz(83.10%)",]
+                    utilized: ["2610.00-2622.00MHz(55.45%)","2622.00-2635.00MHz(81.47%)", "2635.00-2640.00MHz(83.10%)"],
                     notutilized: []
                   }
                 }
@@ -11451,7 +11451,7 @@ const BandsData = [
                 result: {
                   utilization: "86.70",
                   frequencies: {
-                    utilized: ["2640.00-2648.00MHz(183.10%)", "2648.00-2661.00MHz(85.16%)","2661.00-2670.00MHz(88.77%)",
+                    utilized: ["2640.00-2648.00MHz(183.10%)", "2648.00-2661.00MHz(85.16%)","2661.00-2670.00MHz(88.77%)"],
                     notutilized: []
                   }
                 }
@@ -11461,7 +11461,7 @@ const BandsData = [
                 result: {
                   utilization: "76.41",
                   frequencies: {“
-                    utilized: ["2670.00-2674.00MHz(89.77%)", "2674.00-2687.00MHz(88.77%)", "2687.00-2700.00MHz(88.67%)",],
+                    utilized: ["2670.00-2674.00MHz(89.77%)", "2674.00-2687.00MHz(88.77%)", "2687.00-2700.00MHz(88.67%)"],
                     notutilized: []
                   }
                 }
@@ -11471,7 +11471,7 @@ const BandsData = [
                 result: {
                   utilization: "51.16",
                   frequencies: {
-                    utilized: ["2700.00-2713.00MHz(50.78%)","2713.00-2726.00MHz(51.11%)","2726.00-2730.00MHz(51.60%)",]
+                    utilized: ["2700.00-2713.00MHz(50.78%)","2713.00-2726.00MHz(51.11%)","2726.00-2730.00MHz(51.60%)"],
                     notutilized: []
                   }
                 }
@@ -11481,7 +11481,7 @@ const BandsData = [
                 result: {
                   utilization: "52.77",
                   frequencies: {
-                    utilized: ["2730.00-2739.00MHz(51.60%)","2739.00-2752.00MHz(52.76%)","2752.00-2760.00MHz(53.29%)"]
+                    utilized: ["2730.00-2739.00MHz(51.60%)","2739.00-2752.00MHz(52.76%)","2752.00-2760.00MHz(53.29%)"],
                     notutilized: []
                   }
                 }
@@ -11491,7 +11491,7 @@ const BandsData = [
                 result: {
                   utilization: "54.64",
                   frequencies: {
-                    utilized: ["2760.00-2765.00MHz(53.29%)", "2765.00-2778.00MHz(53.94%)", "2778.00-2790.00MHz(55.18%)"]
+                    utilized: ["2760.00-2765.00MHz(53.29%)", "2765.00-2778.00MHz(53.94%)", "2778.00-2790.00MHz(55.18%)"],
                     notutilized: []
                   }
                 }
@@ -11511,7 +11511,7 @@ const BandsData = [
                 result: {
                   utilization: "60.23",
                frequencies: {
-                    utilized: ["2820.00-2830.00MHz(58.55%)", "2830.00-2843.00MHz(59.93%)","2843.00-2850.00MHz(60.86%)",]
+                    utilized: ["2820.00-2830.00MHz(58.55%)", "2830.00-2843.00MHz(59.93%)","2843.00-2850.00MHz(60.86%)"],
                     notutilized: []
                   }
                 }
@@ -11521,7 +11521,7 @@ const BandsData = [
                 result: {
                   utilization: "61.56",
                   frequencies: {
-                    utilized: ["2850.00-2856.00MHz(60.86%)","2856.00-2869.00MHz(61.60%)","2869.00-2880.00MHz(61.92%)"]
+                    utilized: ["2850.00-2856.00MHz(60.86%)","2856.00-2869.00MHz(61.60%)","2869.00-2880.00MHz(61.92%)"],
                     notutilized: []
                   }
                 }
@@ -11531,7 +11531,7 @@ const BandsData = [
                 result: {
                   utilization: "61.31",
                   frequencies: {
-                    utilized: ["2880.00-2882.00MHz(61.87%)", "2882.00-2896.00MHz(61.87%)","2896.00-2909.00MHz(61.13%)","2909.00-2910.00MHz(60.92%)",
+                    utilized: ["2880.00-2882.00MHz(61.87%)", "2882.00-2896.00MHz(61.87%)","2896.00-2909.00MHz(61.13%)","2909.00-2910.00MHz(60.92%)"],
                     notutilized: []
                   }
                 }
@@ -11541,7 +11541,7 @@ const BandsData = [
                 result: {
                   utilization: "60.20",
                   frequencies: {
-                    utilized: ["2910.00-2922.00MHz(60.92%)", "2922.00-2935.00MHz(60.56%)", "2935.00-2940.00MHz(59.89%)"]
+                    utilized: ["2910.00-2922.00MHz(60.92%)", "2922.00-2935.00MHz(60.56%)", "2935.00-2940.00MHz(59.89%)"],
                     notutilized: []
                   }
                 }
@@ -11551,7 +11551,7 @@ const BandsData = [
                 result: {
                   utilization: "59.37",
                   frequencies: {
-                    utilized: ["2940.00-2948.00MHz(59.89%)","2948.00-2961.00MHz(59.41%)", "2961.00-2970.00MHz(59.30%)"]
+                    utilized: ["2940.00-2948.00MHz(59.89%)","2948.00-2961.00MHz(59.41%)", "2961.00-2970.00MHz(59.30%)"],
                     notutilized: []
                   }
                 }
@@ -11561,7 +11561,7 @@ const BandsData = [
                 result: {
                   utilization: "58.86",
                   frequencies: {
-                    utilized: ["2970.00-2974.00MHz(58.87%)","2974.00-2987.00MHz(58.87%)" "2987.00-3000.00MHz(58.84%)"]
+                    utilized: ["2970.00-2974.00MHz(58.87%)","2974.00-2987.00MHz(58.87%)", "2987.00-3000.00MHz(58.84%)"],
                     notutilized: []
                   }
                 }
