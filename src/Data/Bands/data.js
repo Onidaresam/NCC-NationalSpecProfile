@@ -11789,1017 +11789,2607 @@ const BandsData = [
         },
           //300MHz to 3GHz
         {
-            range: "300MHZ-3GHZ",
-            subbands: [
-               {
-                  range: "300.00-330.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["300.00MHz - 313.00MHz (0%)", "313.00MHz - 326.00MHz (0%)", "326.00MHz - 330.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "330.00-360.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["330.00-339.00MHz(0%)", "339.00-352.00MHz(0%)", "352.00-360(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "360.00-390.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["360.00-365.00MHz(0%)","365.00-378.00MHz(0%)", "378.00-390.00MHz(0%)"]
-               }
-                  }
-               },
-               {
-                  range: "390.00-420.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["390.00-391.00MHz(0%)","391.00-404.00MHz(0%)","404.00-417.00MHz(0%)","417.00-420.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "420.00-450.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["420.00-431.00MHz(0%)","431.00-444.00MHz(0%)","444.00-450.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "450.00-480.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["450.00-457.00MHz(0%)","457.00-470.00MHz(0%)","470.00-480.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "480.00-510.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["480.00-483.00MHz(0%)","483.00-496.00MHz(0%)","496.00-509.00MHz(0%)","509.00-510.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "510.00-540.00MHz",
-                  result: {
-                  utilization: "2.57%",
-                  frequencies: {
-                     utilized: ["510.00-522.00MHz(0.59%)","522.00-535.00MHz(7.14%)"],
-                     notutilized: ["535.00-540.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "540.00-570.00MHz",
-                  result: {
-                  utilization: "12.36%",
-                  frequencies: {
-                     utilized: ["548.00-561.00MHz(37.08%)"],
-                     notutilized: ["540.00-548.00MHz(0%)","561.00-570.00MHz(0%)"]
-                     }
-                  }
-               },
-               {
-                  range: "570.00-600.00MHz",
-                  result: {
-                  utilization: "19.47%",
-                  frequencies: {
-                     utilized: ["574.00-587.00MHz(8.19%)","587.00-600.00MHz(11.27%)"],
-                     notutilized: ["570.00-574.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "600.00-630.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["600.00-613.00MHz(0%)","613.00-626.00MHz(0%)","626.00-630.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "630.00-660.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["630.00-639.00MHz(0%)","639.00-652.00MHz(0%)","652.00-660.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "660.00-690.00MHz",
-                  result: {
-                  utilization: "0%",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["660.00-665.00MHz(0%)","665.00-678.00MHz(0%)","678.00-690.00MHz(0%)"]
-                     }
-                  }
-               },
-               {
-                  range: "690.00-720.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["690.00-691.00MHz(0%)","691.00-704.00MHz(0%)","704.00-717.00MHz(0%)","717.00-720.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "720.00-750.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["720.00-731.00MHz(0%)","731.00-744.00MHz(0%)","744.00-750.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "750.00-780.00MHz",
-                  result: {
-                  utilization: "12'98%",
-                  frequencies: {
-                     utilized: ["770.00-780.00MHz(38.94%)"],
-                     notutilized: ["750.00-757.00MHz(0%)","757.00-770.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "780.00-810.00MHz",
-                  result: {
-                  utilization: "45.69%",
-                  frequencies: {
-                     utilized: ["780.00MHz-783.00MHz(38.94%)","783MHz- 796MHz(89.19%)","796MHz-809MHz(54.62%)"],
-                     notutilized: ["809MHz-810MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "810.00-840.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["810.00-822.00MHz(0%)","822.00-835.00MHz(0%)","835.00-840.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "840.00-870.00MHz",
-                  result: {
-                  utilization: "0",
-                  frequencies: {
-                     utilized: [],
-                     notutilized: ["840.00-848.00MHz(0%)","848.00-861.00MHz(0%)","861.00-870.00MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "870.00-900.00MHz",
-                  result: {
-                  utilization: "52.53%",
-                  frequencies: {
-                     utilized: ["874MHz- 887MHz(73.03.98%)", "887MHz- 900MHz(84.57%)"],
-                     notutilized: ["870MHz- 874MHz(0%)"]
-                  }
-                  }
-               },
-               {
-                  range: "900.00-930.00MHz",
-                  result: {
-                  utilization: "99.96",
-                  frequencies: {
-                     utilized: ["900MHz- 913MHz(99.96%)","913MHz- 926MHz(99.96%)","926MHz- 930MHz(99.95%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "930.00-960.00MHz",
-                  result: {
-                  utilization: "99.92",
-                  frequencies: {
-                     utilized: ["930MHz-939MHz(99.95%)", "939MHz- 952MHz(99.95%)","952MHz-960MHz(99.86%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "960.00-990.00MHz",
-                  result: {
-                  utilization: "39.32",
-                  frequencies: {
-                     utilized: ["960MHz-965MHz(99.86%)","965MHz- 978MHz(99.82%)","978MHz-990MHz(99.8%)"],
-                     notutilized: []
-                     }
-                  }
-               },
-               {
-                  range: "990.00-1020.00MHz",
-                  result: {
-                  utilization: "99.8",
-                  frequencies: {
-                     utilized: ["990.00-991.00MHz (99.8%)","991.00-1000.00MHz(99.79%)","1000.00-1020.00MHz(99.81%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1020.00-1050.00MHz",
-                  result: {
-                  utilization: "99.84",
-                  frequencies : {
-                     utilized: ["1020.00-1030.00MHz(99.83%)","1030.00-1040.00MHz(99.85%)","1040.00-1050.00MHz(99.89%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1050.00-1080.00MHz",
-                  result: {
-                  utilization: "99.91",
-                  frequencies: {
-                     utilized: ["1050.00-1060.00MHz(99.89)", ,"1060.00-1070.00MHz(99.91%)","1070.00-1080.00MHz(99.92%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1080.00-1110.00MHz",
-                  result: {
-                  utilization: "99.94",
-                  frequencies: {
-                     utilized: ["1080.00-1100.00MHz(99.94%)", "1100.00-1110.00MHz(99.95%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1110.00-1140.00MHz",
-                  result: {
-                  utilization: "99.96",
-                  frequencies: {
-                     utilized: ["1110.00-1120.00MHz(99.95%)", "1120.00-1130.00MHz(99.96%)", "1130.00-1140.00MHz(99.97%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1140.00-1170.00MHz",
-                  result: {
-                  utilization: "99.97",
-                  frequencies: {
-                     utilized: ["1140.00-1150.00MHz(99.97%)", "1150.00-1160.00MHz(99.97%)", "1160.00-1170.00MHz(99.97%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1170.00-1200.00MHz",
-                  result: {
-                  utilization: "99.97",
-                  frequencies: {
-                     utilized: ["1170.00-1190.00MHz(99.97%)","1190.00-1200.00MHz(99.97%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1200.00-1230.00MHz",
-                  result: {
-                  utilization: "99.97",
-                  frequencies: {
-                     utilized: ["1200.00-1210.00MHz(99.97%)", "1210.00-1230.00MHz(99.97%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1230.00-1260.00MHz",
-                  result: {
-                  utilization: "99.96",
-                  frequencies: {
-                     utilized: ["1230.00-1240.00MHz(99.96%)", "1240.00-1250.00MHz(99.96%)", "1250.00-1260.00MHz(99.96%)",],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1260.00-1290.00MHz",
-                  result: {
-                  utilization: "99.95",
-                  frequencies: {
-                     utilized: ["1260.00-1270.00MHz(99.96%)","1270.00-1280.00MHz(99.95%)", "1280.00-1290.00MHz(99.94%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1290.00-1320.00MHz",
-                  result: {
-                  utilization: "99.93",
-                  frequencies: {
-                     utilized: ["1290.00-1300.00MHz(99.93%)", "1300.00-1320.00MHz(99.92%)"],
-                     notutilized: []
-                     }
-                  }
-               },
-               {
-                  range: "1320.00-1350.00MHz",
-                  result: {
-                  utilization: "99.93",
-                  frequencies: {
-                     utilized: ["1320.00-1330.00MHz(99.92%)", "1330.00-1340.00MHz(99.93%)", "1340.00-1350.00MHz(99.93%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1350.00-1380.00MHz",
-                  result: {
-                  utilization: "99.94",
-                  frequencies: {
-                     utilized: ["1350.00-1360.00MHz(99.93%)","1360.00-1370.00MHz(99.94%)", "1370.00-1380.00MHz(99.95%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1380.00-1410.00MHz",
-                  result: {
-                  utilization: "99.96",
-                  frequencies: {
-                     utilized: ["1380.00-1400.00MHz(99.96%)","1400.00-1410.00MHz(99.97%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1410.00-1440.00MHz",
-                  result: {
-                  utilization: "99.97",
-                  frequencies: {
-                     utilized: ["1410.00-1420.00MHz(99.97%)","1420.00-1430.00MHz(99.97%)","1430.00-1440.00MHz(99.98%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1440.00-1470.00MHz",
-                  result: {
-                  utilization: "99.98",
-                  frequencies: {
-                     utilized: ["1440.00-1450.00MHz(99.98%)", "1450.00-1460.00MHz(99.98%)", "1460.00-1470.00MHz(99.99%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1470.00-1500.00MHz",
-                  result: {
-                  utilization: "99.99%",
-                  frequencies: {
-                     utilized: ["1470.00-1490.00MHz(99.99%)", "1490.00-1500.00MHz(99.99%)"],
-                     notutilized: []
-                     }
-                  }
-               },
-               {
-                  range: "1500.00-1530.00MHz",
-                  result: {
-                  utilization: "99.99%",
-                  frequencies: {
-                     utilized: ["1500.00-1510.00MHz(99.99%)","1510.00-1530.00MHz(99.99%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1530.00-1560.00MHz",
-                  result: {
-                  utilization: "99.98%",
-                  frequencies: {
-                     utilized: ["1530.00-1540.00MHz(99.99%)", "1540.00-1550.00MHz(99.99%)", "1550.00-1560.00MHz(99.98%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1560.00-1590.00MHz",
-                  result: {
-                  utilization: "99.97%",
-                  frequencies: {
-                     utilized: ["1560.00-1570.00MHz(99.98%)", "1570.00-1580.00MHz(99.97%)","1580.00-1590.00MHz(99.97%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1590.00-1620.00MHz",
-                  result: {
-                  utilization: "99.96%",
-                  frequencies: {
-                     utilized: ["1590.00-1600.00MHz(99.96%)", "1600.00-1620.00MHz(99.95%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1620.00-1650.00MHz",
-                  result: {
-                  utilization: "99.96%",
-                  frequencies: {
-                     utilized: ["1620.00-1630.00MHz(99.95%)", "1630.00-1640.00MHz(99.96%)", "1640.00-1650.00MHz(99.96%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1650.00-1680.00MHz",
-                  result: {
-                  utilization: "99.96%",
-                  frequencies: {
-                     utilized: ["1650.00-1660.00MHz(99.96%)", "1660.00-1670.00MHz(99.96%)","1670.00-1680.00MHz(99.97%)"],
-                     notutilized: []
-                     }
-                  }
-               },
-               {
-                  range: "1680.00-1710.00MHz",
-                  result: {
-                  utilization: "99.97%",
-                  frequencies: {
-                     utilized: ["1680.00-1700.00MHz(99.98%)", "1700.00-1710.00MHz(99.98%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1710.00-1740.00MHz",
-                  result: {
-                  utilization: "99.98",
-                  frequencies: {
-                     utilized: ["1710.00-1720.00MHz(99.98%)", "1720.00-1730.00MHz(99.99%)", "1730.00-1740.00MHz(99.99%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1740.00-1770.00MHz",
-                  result: {
-                  utilization: "99.99%",
-                  frequencies: {
-                     utilized: ["1740.00-1750.00MHz(99.99%)","1750.00-1760.00MHz(99.99%)", "1760.00-1770.00MHz(99.99%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1770.00-1800.00MHz",
-                  result: {
-                  utilization: "99.99%",
-                  frequencies: {
-                     utilized: ["1770.00-1790.00MHz(99.99%)","1790.00-1800.00MHz(99.99%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1800.00-1830.00MHz",
-                  result: {
-                  utilization: "99.99%",
-                  frequencies: {
-                     utilized: ["1800.00-1810.00MHz(99.99%)","1810.00-1830.00MHz(99.99%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1830.00-1860.00MHz",
-                  result: {
-                  utilization: "99.99%",
-                  frequencies: {
-                     utilized: ["1830.00-1840.00MHz(99.99%)", "1840.00-1850.00MHz(99.99%)", "1850.00-1860.00MHz(99.99%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1860.00-1890.00MHz",
-                  result: {
-                  utilization: "99.98%",
-                  frequencies: {
-                     utilized: ["1860.00-1870.00MHz(99.99%)", "1870.00-1880.00MHz(99.98%)", "1880.00-1890.00MHz(99.98%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1890.00-1920.00MHz",
-                  result: {
-                  utilization: "99.98%",
-                  frequencies: {
-                     utilized: ["1890.00-1900.00MHz(99.98%)", "1900.00-1920.00MHz(99.97%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1920.00-1950.00MHz",
-                  result: {
-                  utilization: "99.99%",
-                  frequencies: {
-                     utilized: ["1920.00-1930.00MHz(100%)","1930.00-1940.00MHz(100%)", "1940.00-1950.00MHz(100%)"],
-                     notutilized: []
-                     }
-                  }
-               },
-               {
-                  range: "1950.00-1980.00MHz",
-                  result: {
-                  utilization: "100%",
-                  frequencies: {
-                     utilized: ["1950.00-1960.00MHz(100%)","1960.00-1970.00MHz(100%)", "1970.00-1980.00MHz(100%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "1980.00-2010.00MHz",
-                  result: {
-                  utilization: "100%",
-                  frequencies: {
-                     utilized: ["1980.00-2000.00MHz(100%)", "2000.00-2010.00MHz(100%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2010.00-2040.00MHz",
-                  result: {
-                  utilization: "100%",
-                  frequencies: {
-                     utilized: ["2010.00-2020.00MHz(100%)","2020.00-2030.00MHz(100%)", "2030.00-2040.00MHz(100%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2040.00-2070.00MHz",
-                  result: {
-                  utilization: "100%",
-                  frequencies: {
-                     utilized: ["2040.00-2050.00MHz(100%)", "2050.00-2060.00MHz(100%)", "2060.00-2070.00MHz(100%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2070.00-2100.00MHz",
-                  result: {
-                  utilization: "100%",
-                  frequencies: {
-                     utilized: ["2070.00-2090.00MHz(100%)", "2090.00-2100.00MHz(100%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2100.00-2130.00MHz",
-                  result: {
-                  utilization: "100%",
-                  frequencies: {
-                     utilized: ["2100.00-2110.00MHz(100%)", "2110.00-2130.00MHz(100%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2130.00-2160.00MHz",
-                  result: {
-                  utilization: "100%",
-                  frequencies: {
-                     utilized: ["2130.00-2140.00MHz(100%)","2140.00-2150.00MHz(100%)", "2150.00-2160.00MHz(100%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2160.00-2190.00MHz",
-                  result: {
-                  utilization: "100%",
-                  frequencies: {
-                     utilized: ["2160.00-2170.00MHz(100%)", "2170.00-2180.00MHz(100%)", "2180.00-2190.00MHz(100%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2190.00-2220.00MHz",
-                  result: {
-                  utilization: "76.53%",
-                  frequencies: {
-                     utilized: ["2190.00-2200.00MHz(65.04%)", "2200.00-2220.00MHz(65.55%)"],
-                     notutilized: []
-                     }
-                  }
-               },
-               {
-                  range: "2220.00-2250.00MHz",
-                  result: {
-                  utilization: "63.43%",
-                  frequencies: {
-                     utilized: ["2220.00-2230.00MHz(63.87%)", "2230.00-2240.00MHz(63%)", "2240.00-2250.00MHz(62.31%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2250.00-2280.00MHz",
-                  result: {
-                  utilization: "61.55%",
-                  frequencies: {
-                     utilized: ["2250.00-2260.00MHz(62.31%)", "2260.00-2270.00MHz(61.48%)", "2270.00-2280.00MHz(60.86%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2280.00-2310.00MHz",
-                  result: {
-                  utilization: "60.33%",
-                  frequencies: {
-                     utilized: ["2280.00-2300.00MHz(60.19%)", "2300.00-2310.00MHz(59.95%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2310.00-2340.00MHz",
-                  result: {
-                  utilization: "61.13%",
-                  frequencies: {
-                     utilized: ["2310.00-2320.00MHz(60.11%)", "2320.00-2330.00MHz(61.21%)", "2330.00-2340.00MHz(63.27%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2340.00-2370.00MHz",
-                  result: {
-                  utilization: "64.93%",
-                  frequencies: {
-                     utilized: ["2340.00-2350.00MHz(63.27%)", "2350.00-2360.00MHz(64.95%)","2360.00-2370.00MHz(66.58%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2370.00-2400.00MHz",
-                  result: {
-                  utilization: "68.43%",
-                  frequencies: {
-                     utilized: ["2370.00-2390.00MHz(68.37%)", "2390.00-2400.00MHz(70.34%)"],
-                     notutilized: []
-                  }
-                  }
-                  },
-               {
-                  range: "2400.00-2430.00MHz",
-                  result: {
-                  utilization: "71.63%",
-                  frequencies: {
-                     utilized: ["2400.00-2410.00MHz(72.23%)", "2410.00-2430.00MHz(72.32%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2430.00-2460.00MHz",
-                  result: {
-                  utilization: "72.57%",
-                  frequencies: {
-                     utilized: ["2430.00-2440.00MHz(72.64%)", "2440.00-2450.00MHz(72.58%)", "2450.00-2460.00MHz(72.76%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2460.00-2490.00MHz",
-                  result: {
-                  utilization: "72.77%",
-                  frequencies: {
-                     utilized: ["2460.00-2470.00MHz(72.76%)", "2470.00-2480.00MHz(72.63%)" , "2480.00-2490.00MHz(72.93%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2490.00-2520.00MHz",
-                  result: {
-                  utilization: "73.73%",
-                  frequencies: {
-                     utilized: ["2490.00-2500.00MHz(73.64%)" ,"2500.00-2520.00MHz(74.61%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2520.00-2550.00MHz",
-                  result: {
-                  utilization: "75.91%",
-                  frequencies: {
-                     utilized: [ "2520.00-2530.00MHz(75.70%)", "2530.00-2540.00MHz(76,51%)" , "2540.00-2550.00MHz(76.81%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2550.00-2580.00MHz",
-                  result: {
-                  utilization: "77.14%",
-                  frequencies: {
-                     utilized: [ "2550.00-2560.00MHz(76.81%)" , "2560.00-2570.00MHz(77.31%)" , "2570.00-2580.00MHz(77.31%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2580.00-2610.00MHz",
-                  result: {
-                  utilization: "77.15%",
-                  frequencies: {
-                     utilized: [ "2580.00-2600.00MHz(77.14%)", "2600.00-2610.00MHz(76.99%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2610.00-2640.00MHz",
-                  result: {
-                  utilization: "82.07%",
-                  frequencies: {
-                     utilized: ["2610.00-2620.00MHz(82.66%)","2620.00-2630.00MHz(83.89%)", "2630.00-2640.00MHz(84.72%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2640.00-2670.00MHz",
-                  result: {
-                  utilization: "83.21%",
-                  frequencies: {
-                     utilized: ["2640.00-2650.00MHz(84.72%)", "2650.00-2660.00MHz(83.17%)","2660.00-2670.00MHz(81.75%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2670.00-2700.00MHz",
-                  result: {
-                  utilization: "79.06%",
-                  frequencies: {
-                     utilized: ["2670.00-2690.00MHz(81.24%)", "2690.00-2700.00MHz(74.19%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2700.00-2730.00MHz",
-                  result: {
-                  utilization: "74.46%",
-                  frequencies: {
-                     utilized: ["2700.00-2710.00MHz(74.25%)","2710.00-2730.00MHz(74.93%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2730.00-2760.00MHz",
-                  result: {
-                  utilization: "76.47%",
-                  frequencies: {
-                     utilized: ["2730.00-2740.00MHz(75.93%)","2740.00-2750.00MHz(76.95%)","2750.00-2760.00MHz(78.05%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2760.00-2790.00MHz",
-                  result: {
-                  utilization: "79.27%",
-                  frequencies: {
-                     utilized: ["2760.00-2770.00MHz(78.05%)", "2770.00-2780.00MHz(79.28%)", "2780.00-2790.00MHz(80.48%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2790.00-2820.00MHz",
-                  result: {
-                  utilization: "81.88%",
-                  frequencies: {
-                     utilized: ["2790.00-2800.00MHz(81.79%)","2800.00-2820.00MHz(83.36%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2820.00-2850.00MHz",
-                  result: {
-                  utilization: "85.05%",
-               frequencies: {
-                     utilized: ["2820.00-2830.00MHz(84.76%)", "2830.00-2840.00MHz(85.69%)","2840.00-2850.00MHz(86.38%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2850.00-2880.00MHz",
-                  result: {
-                  utilization: "86.70%",
-                  frequencies: {
-                     utilized: ["2850.00-2860.00MHz(86.38%)","2860.00-2870.00MHz(86.77%)","2870.00-2880.00MHz(86.96%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2880.00-2910.00MHz",
-                  result: {
-                  utilization: "86.25%",
-                  frequencies: {
-                     utilized: ["2880.00-2900.00MHz(85.96%)", "2900.00-2910.00MHz(85.85%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2910.00-2940.00MHz",
-                  result: {
-                  utilization: "85.23%",
-                  frequencies: {
-                     utilized: ["2910.00-2920.00MHz(85.51%)", "2920.00-2930.00MHz(85.03%)", "2930.00-2940.00MHz(84.52%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2940.00-2970.00MHz",
-                  result: {
-                  utilization: "84.28%",
-                  frequencies: {
-                     utilized: ["2940.00-2950.00MHz(84.52%)","2950.00-2960.00MHz(84.24%)", "2960.00-2970.00MHz(84.08%)"],
-                     notutilized: []
-                  }
-                  }
-               },
-               {
-                  range: "2970.00-3000.00MHz",
-                  result: {
-                  utilization: "69.38%",
-                  frequencies: {
-                     utilized: ["2970.00-2990.00MHz(83.88%)","2990.00-3000.00MHz(40.17%)"],
-                     notutilized: []
-                  }
-                  }
-               }
+        range: "300.00-330.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "300.00MHz-313.00MHz (0%)",
+              "313.00MHz-326.00MHz (0%)",
+              "326.00MHz-330.00MHz (0%)"
             ]
-         },
-               //3ghz to 6ghz
+          }
+        }
+      },
       {
-               range: "3GHZ-6GHZ",
-               subbands : [
-                  { range: "3000.00MHz-3030.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3000.00MHz-3010.00MHz(0%)","3010.00MHz-3030.00MHz(0%)"] } } },
-                  { range: "3030.00MHz-3060.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3030.00MHz-3040.00MHz(0%)",  "3040.00MHz-3050.00MHz(0%)", "3050.00MHz-3060.00MHz(0%)"] } } },
-                  { range: "3060.00MHz-3090.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3060.00MHz-3070.00MHz(0%)","3070.00MHz-3080.00MHz(0%)","3080.00MHz-3090.00MHz(0%)"] } } },
-                  { range: "3090.00MHz-3120.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3090.00MHz-3010.00MHz(0%)", "3100.00MHz-3120.00MHz(0%)"] } } },
-                  { range: "3120.00MHz-3150.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3120.00MHz-3130.00MHz(0%)", "3130.00MHz-3140.00MHz(0%)","3140.00MHz-3150.00MHz(0%)"] } } },
-                  { range: "3150.00MHz-3180.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3150.00MHz-3160.00MHz(0%)", "3160.00MHz-3170.00MHz(0%)",  "3170.00MHz-3180.00MHz(0%)"] } } },
-                  { range: "3180.00MHz-3210.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3180.00MHz-3200.00MHz(0%)","3200.00MHz-3210.00MHz(0%)"] } } },
-                  { range: "3210.00MHz-3240.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3210.00MHz-3220.00MHz(0%)", "3220.00MHz-3230.00MHz(0%)", "3230.00MHz-3240.00MHz(0%)"] } } },
-                  { range: "3240.00MHz-3270.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3240.00MHz-3250.00MHz(0%)", "3250.00MHz-3260.00MHz(0%)", "3260.00MHz-3270.00MHz(0%)"] } } },
-                  { range: "3270.00MHz-3300.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3270.00MHz-3290.00MHz(0%)", "3290.00MHz-3300.00MHz(0%)"] } } },
-                  { range: "3300.00MHz-3330.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3300.00MHz-3310.00MHz(0%)", "3310.00MHz-3330.00MHz(0%)"] } } },
-                  { range: "3330.00MHz-3360.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3330.00MHz-3340.00MHz(0%)", "3340.00MHz-3350.00MHz(0%)","3350.00MHz-3360.00MHz(0%)"] } } },
-                  { range: "3360.00MHz-3390.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3360.00MHz-3370.00MHz(0%)", "3370.00MHz-3380.00MHz(0%)",  "3380.00MHz-3390.00MHz(0%)"] } } },
-                  { range: "3390.00MHz-3420.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3390.00MHz-3400.00MHz(0%)", "3400.00MHz-3420.00MHz(0%)"] } } },
-                  { range: "3420.00MHz-3450.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3420.00MHz-3430.00MHz(0%)", "3430.00MHz-3440.00MHz(0%)", "3440.00MHz-3450.00MHz(0%)"] } } },
-                  { range: "3450.00MHz-3480.00MHz", result: { utilization: "0%", frequencies: { utilized: [], notutilized: ["3450.00MHz-3460.00MHz(0%)", "3460.00MHz-3470.00MHz(0%)", "3470.00MHz-3480.00MHz(0%)"] } } },
-                  { range: "3480.00MHz-3510.00MHz", result: { utilization: "63.58", frequencies: { utilized: ["3480.00MHz-3500.00MHz(62.59%)","3500.00MHz-3510.00MHz(66.83%)"], notutilized: [] } } },
-                  { range: "3510.00MHz-3540.00MHz", result: { utilization: "65.65", frequencies: { utilized: ["3510.00MHz-3520.00MHz(63.55%)",   "3520.00MHz-3530.00MHz(64.56%)", "3530.00MHz-3540.00MHz(67.66%)"], notutilized: [] } } },
-                  { range: "3540.00MHz-3570.00MHz", result: { utilization: "66.20", frequencies: { utilized: ["3540.00MHz-3550.00MHz(67.66%)", "3550.00MHz-3560.00MHz(64.08%)", "3560.00MHz-3570.00MHz(66.86%)"], notutilized: [] } } },
-                  { range: "3570.00MHz-3600.00MHz", result: { utilization: "64.27", frequencies: { utilized: ["3570.00MHz-3590.00MHz(64.96%)", "3590.00MHz-3600.00MHz(70%)",], notutilized: [] } } },
-                  { range: "3600.00MHz-3630.00MHz", result: { utilization: "58.36", frequencies: { utilized: ["3600.00MHz-3610.00MHz(57.33%)", "3610.00MHz-3630.00MHz(56.74%)",], notutilized: [] } } },
-                  { range: "3630.00MHz-3660.00MHz", result: { utilization: "53.71", frequencies: { utilized: ["3630.00MHz-3640.00MHz(55.31%)", "3640.00MHz-3650.00MHz(52.76%)", "3650.00MHz-3660.00MHz(50.04%)"], notutilized: [] } } },
-                  { range: "3660.00MHz-3690.00MHz", result: { utilization: "48.39", frequencies: { utilized: ["3660.00MHz-3670.00MHz(50.04%)", "3670.00MHz-3680.00MHz(48.28%)", "3680.00MHz-3690.00MHz(46.85%)"], notutilized: [] } } },
-                  { range: "3690.00MHz-3720.00MHz", result: { utilization: "45.77", frequencies: { utilized: ["3690.00MHz-3700.00MHz(45.61%)","3700.00MHz-3720.00MHz(44.86%)"], notutilized: [] } } },
-                  { range: "3720.00MHz-3750.00MHz", result: { utilization: "44.80", frequencies: { utilized: ["3720.00MHz-3730.00MHz(44.57%)","3730.00MHz-3740.00MHz(44.56%)", "3740.00MHz-3750.00MHz(45.21%)"], notutilized: [] } } },
-                  { range: "3750.00MHz-3780.00MHz", result: { utilization: "46.19", frequencies: { utilized: ["3750.00MHz-3760.00MHz(45.21%)",  "3760.00MHz-3770.00MHz(46.18%)", "3770.00MHz-3780.00MHz(47.17%)"], notutilized: [] } } },
-                  { range: "3780.00MHz-3810.00MHz", result: { utilization: "48.90", frequencies: { utilized: ["3780.00MHz-3800.00MHz(48.8%)","3800.00MHz-3810.00MHz(50.72 %)"], notutilized: [] } } },
-                  { range: "3810.00MHz-3840.00MHz", result: { utilization: "53.08", frequencies: { utilized: ["3810.00MHz-3820.00MHz(52.53%)","3820.00MHz-3830.00MHz(53.82%)","3830.00MHz-3840.00MHz(55.24%)"], notutilized: [] } } },
-                  { range: "3840.00MHz-3870.00MHz", result: { utilization: "56.79", frequencies: { utilized: ["3840.00MHz-3850.00MHz(55.24%)", "3850.00MHz-3860.00MHz(56.83%)", "3860.00MHz-3870.00MHz(58.29%)"], notutilized: [] } } },
-                  { range: "3870.00MHz-3900.00MHz", result: { utilization: "58.17", frequencies: { utilized: ["3870.00MHz-3890.00MHz(58.34%)", "3890.00MHz-3900.00MHz(57.89%)",], notutilized: [] } } },
-                  { range: "3900.00MHz-3930.00MHz", result: { utilization: "56.54", frequencies: { utilized: ["3900.00MHz-3910.00MHz(56.77%)", "3910.00MHz-3930.00MHz(54.95%)"], notutilized: [] } } },
-                  { range: "3930.00MHz-3960.00MHz", result: { utilization: "52.67", frequencies: { utilized: ["3930.00MHz-3940.00MHz(53.3%)", "3940.00MHz-3950.00MHz(51.7%)", "3950.00MHz-3960.00MHz(50.73%)"], notutilized: [] } } },
-                  { range: "3960.00MHz-3990.00MHz", result: { utilization: "50.7", frequencies: { utilized: ["3960.00MHz-3970.00MHz(50.73%)",  "3970.00MHz-3980.00MHz(50.35%)", "3980.00MHz-3990.00MHz(51.02%)"], notutilized: [] } } },
-                  { range: "3990.00MHz-4020.00MHz", result: { utilization: "51.78", frequencies: { utilized: [ "3990.00MHz-4000.00MHz(51.65%)",  "4000.00MHz-4020.00MHz(52.68%)"], notutilized: [] } } },
-                  { range: "4020.00MHz-4050.00MHz", result: { utilization: "55.41", frequencies: { utilized: ["4020.00MHz-4030.00MHz(54.28%)", "4030.00MHz-4040.00MHz(56.36%)", "4040.00MHz-4050.00MHz(58.32%)"], notutilized: [] } } },
-                  { range: "4050.00MHz-4080.00MHz", result: { utilization: "60.57", frequencies: { utilized: ["4050.00MHz-4060.00MHz(58.32%)", "4060.00MHz-4070.00MHz(60.67%)", "4070.00MHz-4080.00MHz(62.72%)"], notutilized: [] } } },
-                  { range: "4080.00MHz-4110.00MHz", result: { utilization: "63.68", frequencies: { utilized: ["4080.00MHz-4100.00MHz(63.83%)", "4100.00MHz-4110.00MHz(64.51%)"], notutilized: [] } } },
-                  { range: "4110.00MHz-4140.00MHz", result: { utilization: "65.66", frequencies: { utilized: ["4110.00MHz-4120.00MHz(65.17%)", "4120.00MHz-4130.00MHz(66.11%)", "4130.00MHz-4140.00MHz(66.84%)"], notutilized: [] } } },
-                  { range: "4140.00MHz-4170.00MHz", result: { utilization: "68.86", frequencies: { utilized: ["4140.00MHz-4150.00MHz(66.84%)","4150.00MHz-4160.00MHz(68.93%)","4160.00MHz-4170.00MHz(70.82%)"], notutilized: [] } } },
-                  { range: "4170.00MHz-4200.00MHz", result: { utilization: "71.87", frequencies: { utilized: ["4170.00MHz-4190.00MHz(71.8%)", "4190.00MHz-4200.00MHz(72.99%)"], notutilized: [] } } },
-                  { range: "4200.00MHz-4230.00MHz", result: { utilization: "73.74", frequencies: { utilized: [ "4200.00MHz-4210.00MHz(73.79%)" , "4210.00MHz-4230.00MHz(74.46%)"], notutilized: [] } } },
-                  { range: "4230.00MHz-4260.00MHz", result: { utilization: "76.57", frequencies: { utilized: ["4230.00MHz-4240.00MHz(76%)","4240.00MHz-4250.00MHz(77.38%)", "4250.00MHz-4260.00MHz(78.46%)"], notutilized: [] } } },
-                  { range: "4260.00MHz-4290.00MHz", result: { utilization: "79.51", frequencies: { utilized: ["4260.00MHz-4270.00MHz(78.48%)",  "4270.00MHz-4280.00MHz(79.78%)", "4280.00MHz-4290.00MHz(80.28%)"], notutilized: [] } } },
-                  { range: "4290.00MHz-4320.00MHz", result: { utilization: "80.92", frequencies: { utilized: ["4290.00MHz-4300.00MHz(80.8%)",  "4300.00MHz-4320.00MHz(81.67%)",], notutilized: [] } } },
-                  { range: "4320.00MHz-4350.00MHz", result: { utilization: "83.47", frequencies: { utilized: ["4320.00MHz-4330.00MHz(82.74%)", "4330.00MHz-4340.00MHz(83.84%)", "4340.00MHz-4350.00MHz(85.64%)"], notutilized: [] } } },
-                  { range: "4350.00MHz-4380.00MHz", result: { utilization: "86.62", frequencies: { utilized: ["4350.00MHz-4360.00MHz(85.64%)", "4360.00MHz-4370.00MHz(86.46%)","4370.00MHz-4380.00MHz(87.76%)"], notutilized: [] } } },
-                  { range: "4380.00MHz-4410.00MHz", result: { utilization: "88.79", frequencies: { utilized: ["4380.00MHz-4400.00MHz(88.79%)", "4400.00MHz-4410.00MHz(89.83%)",], notutilized: [] } } },
-                  { range: "4410.00MHz-4440.00MHz", result: { utilization: "91.18", frequencies: { utilized: ["4410.00MHz-4420.00MHz(90.74%)" ,"4420.00MHz-4430.00MHz(91.76%)", "4430.00MHz-4440.00MHz(92.41%)",], notutilized: [] } } },
-                  { range: "4440.00MHz-4470.00MHz", result: { utilization: "93.28", frequencies: { utilized: ["4440.00MHz-4450.00MHz(92.41%)", "4450.00MHz-4460.00MHz(93.42%)", "4460.00MHz-4470.00MHz(94.01%)",], notutilized: [] } } },
-                  { range: "4470.00MHz-4500.00MHz", result: { utilization: "94.48", frequencies: { utilized: ["4470.00MHz-4490.00MHz(94.53%)", "4490.00MHz-4500.00MHz(94.88%)"] ,notutilized: [] } } },
-                  { range: "4500.00MHz-4530.00MHz", result: { utilization: "95.05", frequencies: { utilized: ["4500.00MHz-4510.00MHz(95.10%)", "4510.00MHz-4530.00MHz(95.15%)",], notutilized: [] } } },
-                  { range: "4530.00MHz-4560.00MHz", result: { utilization: "95.06", frequencies: { utilized: ["4530.00MHz-4540.00MHz(95.12%)", "4540.00MHz-4550.00MHz(95.02%)", "4550.00MHz-4560.00MHz(94.92%)"], notutilized: [] } } },
-                  { range: "4560.00MHz-4590.00MHz", result: { utilization: "94.77", frequencies: { utilized: ["4560.00MHz-4570.00MHz(94.92%)", "4570.00MHz-4580.00MHz(94.78%)","4580.00MHz-4590.00MHz(94.61%)"], notutilized: [] } } },
-                  { range: "4590.00MHz-4620.00MHz", result: { utilization: "94.24", frequencies: { utilized: ["4590.00MHz-4600.00MHz(94.27%)","4600.00MHz-4620.00MHz(93.84%)"], notutilized: [] } } },
-                  { range: "4620.00MHz-4650.00MHz", result: { utilization: "93.22", frequencies: { utilized: ["4620.00MHz-4630.00MHz(93.35%)", "4630.00MHz-4640.00MHz(92.93%)","4640.00MHz-4650.00MHz(92.76%)"], notutilized: [] } } },
-                  { range: "4650.00MHz-4680.00MHz", result: { utilization: "92.73", frequencies: { utilized: ["4650.00MHz-4660.00MHz(92.76%)", "4660.00MHz-4670.00MHz(92.71%)", "4670.00MHz-4680.00MHz(92.73%)"], notutilized: [] } } },
-                  { range: "4680.00MHz-4710.00MHz", result: { utilization: "92.92", frequencies: { utilized: ["4680.00MHz-4700.00MHz(92.89%)", "4700.00MHz-4710.00MHz(93.14%)",], notutilized: [] } } },
-                  { range: "4710.00MHz-4740.00MHz", result: { utilization: "93.86", frequencies: { utilized: ["4710.00MHz-4720.00MHz(93.49%)", "4720.00MHz-4730.00MHz(94.01%)", "4730.00MHz-4740.00MHz(94.81%)"], notutilized: [] } } },
-                  { range: "4740.00MHz-4770.00MHz", result: { utilization: "95.56", frequencies: { utilized: ["4740.00MHz-4750.00MHz(94.81%)", "4750.00MHz-4760.00MHz(95.57%)", "4760.00MHz-4770.00MHz(96.29%)"], notutilized: [] } } },
-                  { range: "4770.00MHz-4800.00MHz", result: { utilization: "96.84", frequencies: { utilized: ["4770.00MHz-4790.00MHz(96.88%)", "4790.00MHz-4800.00MHz(97.36%)"], notutilized: [] } } },
-                  { range: "4800.00MHz-4830.00MHz", result: { utilization: "97.62", frequencies: { utilized: ["4800.00MHz-4810.00MHz(97.66%)", "4810.00MHz-4830.00MHz(97.85%)"], notutilized: [] } } },
-                  { range: "4830.00MHz-4860.00MHz", result: { utilization: "97.98", frequencies: { utilized: ["4830.00MHz-4840.00MHz(97.97%)","4840.00MHz-4850.00MHz(98.04%)", "4850.00MHz-4860.00MHz(98.05%)"], notutilized: [] } } },
-                  { range: "4860.00MHz-4890.00MHz", result: { utilization: "98.03", frequencies: { utilized: ["4860.00MHz-4870.00MHz(98.05%)", "4870.00MHz-4880.00MHz(98.04%)", "4880.00MHz-4890.00MHz(97.99%)"], notutilized: [] } } },
-                  { range: "4890.00MHz-4920.00MHz", result: { utilization: "97.94", frequencies: { utilized: ["4890.00MHz-4900.00MHz(97.93%)",  "4900.00MHz-4920.00MHz(97.91%)"], notutilized: [] } } },
-                  { range: "4920.00MHz-4950.00MHz", result: { utilization: "98.02", frequencies: { utilized: ["4920.00MHz-4930.00MHz(97.88%)", "4930.00MHz-4940.00MHz(98.01%)", "4940.00MHz-4950.00MHz(98.29%)"], notutilized: [] } } },
-                  { range: "4950.00MHz-4980.00MHz", result: { utilization: "98.56", frequencies: { utilized: ["4950.00MHz-4960.00MHz(98.29%)",  "4960.00MHz-4970.00MHz(98.59%)", "4970.00MHz-4980.00MHz(98.82%)"], notutilized: [] } } },
-                  { range: "4980.00MHz-5010.00MHz", result: { utilization: "98.99", frequencies: { utilized: ["4980.00MHz-5000.00MHz(99%)",  "5000.00MHz-5010.00MHz(99.15%)"], notutilized: [] } } },
-                  { range: "5010.00MHz-5040.00MHz", result: { utilization: "99.37", frequencies: { utilized: ["5010.00MHz-5020.00MHz(99.31%)",  "5020.00MHz-5030.00MHz(99.46%)", "5030.00MHz-5040.00MHz(99.56%)"], notutilized: [] } } },
-                  { range: "5040.00MHz-5070.00MHz", result: { utilization: "99.65", frequencies: { utilized: ["5040.00MHz-5050.00MHz(99.56%)",  "5050.00MHz-5060.00MHz(99.65%)", "5060.00MHz-5070.00MHz(99.73%)"], notutilized: [] } } },
-                  { range: "5070.00MHz-5100.00MHz", result: { utilization: "99.79", frequencies: { utilized: ["5070.00MHz-5090.00MHz(99.8%)",  "5090.00MHz-5100.00MHz(99,84%)"], notutilized: [] } } },
-                  { range: "5100.00MHz-5130.00MHz", result: { utilization: "99.88", frequencies: { utilized: ["5100.00MHz-5110.00MHz(99.88%)", "5110.00MHz-5130.00MHz(99.91%)"], notutilized: [] } } },
-                  { range: "5130.00MHz-5160.00MHz", result: { utilization: "99.93", frequencies: { utilized: ["5130.00MHz-5140.00MHz(99.92%)", "5140.00MHz-5150.00MHz(99.94%)", "5150.00MHz-5160.00MHz(99.95%)"], notutilized: [] } } },
-                  { range: "5160.00MHz-5190.00MHz", result: { utilization: "99.95", frequencies: { utilized: ["5160.00MHz-5170.00MHz(99.95%)",  "5170.00MHz-5180.00MHz(99.95%)","5180.00MHz-5190.00MHz(99.96%)"], notutilized: [] } } },
-                  { range: "5190.00MHz-5220.00MHz", result: { utilization: "99.96", frequencies: { utilized: ["5190.00MHz-5200.00MHz(99.96%)",  "5200.00MHz-5220.00MHz(99.97%)"], notutilized: [] } } },
-                  { range: "5220.00MHz-5250.00MHz", result: { utilization: "99.96", frequencies: { utilized: ["5220.00MHz-5230.00MHz(99,97%)",  "5230.00MHz-5240.00MHz(99.96%)", "5240.00MHz-5250.00MHz(99.96%)"], notutilized: [] } } },
-                  { range: "5250.00MHz-5280.00MHz", result: { utilization: "99.95", frequencies: { utilized: ["5250.00MHz-5260.00MHz(99.96%)",  "5260.00MHz-5270.00MHz(99.95%)","5270.00MHz-5280.00MHz(99.95%)"], notutilized: [] } } },
-                  { range: "5280.00MHz-5310.00MHz", result: { utilization: "99.94", frequencies: { utilized: ["5280.00MHz-5300.00MHz(99.94%)",  "5300.00MHz-5310.00MHz(99.93%)",], notutilized: [] } } },
-                  { range: "5310.00MHz-5340.00MHz", result: { utilization: "99.91", frequencies: { utilized: ["5310.00MHz-5320.00MHz(99.92%)", "5320.00MHz-5330.00MHz(99.89%)", "5330.00MHz-5340.00MHz(99.88%)"], notutilized: [] } } },
-                  { range: "5340.00MHz-5370.00MHz", result: { utilization: "99.87", frequencies: { utilized: ["5340.00MHz-5350.00MHz(99.88%)",  "5350.00MHz-5360.00MHz(99.88%)", "5360.00MHz-5370.00MHz(99.87%)"], notutilized: [] } } },
-                  { range: "5370.00MHz-5400.00MHz", result: { utilization: "99.87", frequencies: { utilized: ["5370.00MHz-5390.00MHz(99.86%)",  "5390.00MHz-5400.00MHz(99.87%)"], notutilized: [] } } },
-                  { range: "5400.00MHz-5430.00MHz", result: { utilization: "99.87", frequencies: { utilized: ["5400.00MHz-5410.00MHz(99.87%)",  "5410.00MHz-5430.00MHz(99.87%)"], notutilized: [] } } },
-                  { range: "5430.00MHz-5460.00MHz", result: { utilization: "", frequencies: { utilized: ["5430.00MHz-5440.00MHz(99.87%)",  "5440.00MHz-5450.00MHz(99.86%)", "5450.00MHz-5460.00MHz(99.87%)"], notutilized: [] } } },
-                  { range: "5460.00MHz-5490.00MHz", result: { utilization: "99.87", frequencies: { utilized: ["5460.00MHz-5470.00MHz(99.87%)",  "5470.00MHz-5480.00MHz(99.87%)", "5480.00MHz-5490.00MHz(99.99%)"], notutilized: [] } } },
-                  { range: "5490.00MHz-5520.00MHz", result: { utilization: "99.89", frequencies: { utilized: ["5490.00MHz-5500.00MHz(99.89%)",  "5500.00MHz-5520.00MHz(99.89%)"], notutilized: [] } } },
-                  { range: "5520.00MHz-5550.00MHz", result: { utilization: "99.89", frequencies: { utilized: ["5520.00MHz-5530.00MHz(99.89%)",  "5530.00MHz-5540.00MHz(99.89%)", "5540.00MHz-5550.00MHz(99.88%)"], notutilized: [] } } },
-                  { range: "5550.00MHz-5580.00MHz", result: { utilization: "99.87", frequencies: { utilized: ["5550.00MHz-5560.00MHz(99.88%)",  "5560.00MHz-5570.00MHz(99.87%)", "5570.00MHz-5580.00MHz(99.87%)"], notutilized: [] } } },
-                  { range: "5580.00MHz-5610.00MHz", result: { utilization: "99.87", frequencies: { utilized: ["5580.00MHz-5600.00MHz(99.86%)",  "5600.00MHz-5610.00MHz(99.86%)"], notutilized: [] } } },
-                  { range: "5610.00MHz-5640.00MHz", result: { utilization: "99.86", frequencies: { utilized: ["5610.00MHz-5620.00MHz(99.85%)", "5620.00MHz-5630.00MHz(99.85%)","5630.00MHz-5640.00MHz(99.86%)"], notutilized: [] } } },
-                  { range: "5640.00MHz-5670.00MHz", result: { utilization: "99.86", frequencies: { utilized: ["5640.00MHz-5650.00MHz(99.86%)",  "5650.00MHz-5660.00MHz(99.85%)", "5660.00MHz-5670.00MHz(99.86%)"], notutilized: [] } } },
-                  { range: "5670.00MHz-5700.00MHz", result: { utilization: "99.87", frequencies: { utilized: ["5670.00MHz-5690.00MHz(99.87%)",  "5690.00MHz-5700.00MHz(99.88%)"], notutilized: [] } } },
-                  { range: "5700.00MHz-5730.00MHz", result: { utilization: "99.9", frequencies: { utilized: ["5700.00MHz-5710.00MHz(99.9%)",  "5710.00MHz-5730.00MHz(99.91%)"], notutilized: [] } } },
-                  { range: "5730.00MHz-5760.00MHz", result: { utilization: "99.93", frequencies: { utilized: ["5730.00MHz-5740.00MHz(99.92%)",  "5740.00MHz-5750.00MHz(99.94%)", "5750.00MHz-5760.00MHz(99.95%)"], notutilized: [] } } },
-                  { range: "5760.00MHz-5790.00MHz", result: { utilization: "99.96", frequencies: { utilized: ["5760.00MHz-5770.00MHz(99.95%)",  "5770.00MHz-5780.00MHz(99.96%)","5780.00MHz-5790.00MHz(99.98%)"], notutilized: [] } } },
-                  { range: "5790.00MHz-5820.00MHz", result: { utilization: "99.98", frequencies: { utilized: ["5790.00MHz-5800.00MHz(99.98%)",  "5800.00MHz-5820.00MHz(99.99%)"], notutilized: [] } } },
-                  { range: "5820.00MHz-5850.00MHz", result: { utilization: "99.99", frequencies: { utilized: ["5820.00MHz-5830.00MHz(99.99%)",  "5830.00MHz-5840.00MHz(99.99%)", "5840.00MHz-5850.00MHz(99.99%)"], notutilized: [] } } },
-                  { range: "5850.00MHz-5880.00MHz", result: { utilization: "100", frequencies: { utilized: [ "5850.00MHz-5860.00MHz(99.99%)",  "5860.00MHz-5870.00MHz(100%)", "5870.00MHz-5880.00MHz(100%)"], notutilized: [] } } },
-                  { range: "5880.00MHz-5910.00MHz", result: { utilization: "100", frequencies: { utilized: ["5880.00MHz-5900.00MHz(100%)",  "5900.00MHz-5910.00MHz(100%)"], notutilized: [] } } },
-                  { range: "5910.00MHz-5940.00MHz", result: { utilization: "100", frequencies: { utilized: ["5910.00MHz-5920.00MHz(100%)", "5920.00MHz-5930.00MHz(100%)", "5930.00MHz-5940.00MHz(100%)"], notutilized: [] } } },
-                  { range: "5940.00MHz-5970.00MHz", result: { utilization: "100", frequencies: { utilized: ["5940.00MHz-5950.00MHz(100%)",  "5950.00MHz-5960.00MHz(100%)", "5960.00MHz-5970.00MHz(100%)"], notutilized: [] } } },
-                  { range: "5970.00MHz-6000.00MHz", result: { utilization: "100", frequencies: { utilized: ["5970.00MHz-5990.00MHz(100%)",  "5990.00MHz-6000.00MHz(100%)"], notutilized: [] } } },
-               ]
-            },
-          ]
-          },
-        ];
+        range: "330.00-360.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "330.00-339.00MHz (0%)",
+              "339.00-352.00MHz (0%)",
+              "352.00-360.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "360.00-390.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "360.00-365.00MHz (0%)",
+              "365.00-378.00MHz (0%)",
+              "378.00-390.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "390.00-420.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "390.00-391.00MHz (0%)",
+              "391.00-404.00MHz (0%)",
+              "404.00-417.00MHz (0%)",
+              "417.00-420.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "420.00-450.00MHz",
+        result: {
+          utilization: "6.56",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "420.00-431.00MHz (0%)",
+              "431.00-444.00MHz (0%)",
+              "444.00-457.00MHz (9.8%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "450.00-480.00MHz",
+        result: {
+          utilization: "6.6",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "450.00-457.00MHz (0%)",
+              "457.00-470.00MHz (9.8%)",
+              "470.00-480.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "480.00-510.00MHz",
+        result: {
+          utilization: "0.1",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "480.00-483.00MHz (0%)",
+              "483.00-496.00MHz (0%)",
+              "496.00-509.00MHz (0%)",
+              "509.00-510.00MHz (0.2%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "510.00-540.00MHz",
+        result: {
+          utilization: "2.6",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "510.00-522.00MHz (0.6%)",
+              "522.00-535.00MHz (4%)",
+              "535.00-540.00MHz (3.6%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "540.00-570.00MHz",
+        result: {
+          utilization: "12.4",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "540.00-548.00MHz (0%)",
+              "548.00-561.00MHz (18.5%)",
+              "561.00-570.00MHz (18.5%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "570.00-600.00MHz",
+        result: {
+          utilization: "6.5",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "570.00-574.00MHz (0%)",
+              "574.00-587.00MHz (4.1%)",
+              "587.00-600.00MHz (9.7%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "600.00-630.00MHz",
+        result: {
+          utilization: "2.8",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "600.00-613.00MHz (5.6%)",
+              "613.00-626.00MHz (0%)",
+              "626.00-630.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "630.00-660.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "630.00-639.00MHz (0%)",
+              "639.00-652.00MHz (0%)",
+              "652.00-660.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "660.00-690.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "660.00-665.00MHz (0%)",
+              "665.00-678.00MHz (0%)",
+              "678.00-690.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "690.00-720.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "690.00-691.00MHz (0%)",
+              "691.00-704.00MHz (0%)",
+              "704.00-717.00MHz (0%)",
+              "717.00-720.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "720.00-750.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "720.00-731.00MHz (0%)",
+              "731.00-744.00MHz (0%)",
+              "744.00-750.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "750.00-780.00MHz",
+        result: {
+          utilization: "13",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "750.00-757.00MHz (0%)",
+              "757.00-770.00MHz (0%)",
+              "770.00-780.00MHz (19.5%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "780.00-810.00MHz",
+        result: {
+          utilization: "45.7",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "780.00-783.00MHz (39%)",
+              "783.00-796.00MHz (64%)",
+              "796.00-809.00MHz (72%)",
+              "809.00-810.00MHz (27.3%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "810.00-840.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "810.00-822.00MHz (0%)",
+              "822.00-835.00MHz (0%)",
+              "835.00-840.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "840.00-870.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [],
+            notutilized: [
+              "840.00-848.00MHz (0%)",
+              "848.00-861.00MHz (0%)",
+              "861.00-870.00MHz (0%)"
+            ]
+          }
+        }
+      },
+      {
+        range: "870.00-900.00MHz",
+        result: {
+          utilization: "52.53",
+          frequencies: {
+            utilized: [
+              "870.00-874.00MHz (0%)",
+              "874.00-887.00MHz (36.52%)",
+              "887.00-900.00MHz (78.80%)"
+            ],
+            notutilized: []
+          }
+        }
+      },
+      {
+        range: "900.00-930.00MHz",
+        result: {
+          utilization: "86.31",
+          frequencies: {
+            utilized: [
+              "900.00-913.00MHz (72.63%)",
+              "913.00-926.00MHz (80.33%)",
+              "926.00-930.00MHz (99.99%)"
+            ],
+            notutilized: []
+          }
+        }
+      },
+      {
+        range: "930.00-960.00MHz",
+        result: {
+          utilization: "100",
+          frequencies: {
+            utilized: [
+              "930.00-939.00MHz (100%)",
+              "939.00-952.00MHz (100%)",
+              "952.00-960.00MHz (100%)"
+            ],
+            notutilized: []
+          }
+        }
+      },
+      {
+        range: "960.00-990.00MHz",
+        result: {
+          utilization: "44.71",
+          frequencies: {
+            utilized: [
+              "960.00-965.00MHz (100%)",
+              "965.00-978.00MHz (58.60%)",
+              "978.00-990.00MHz (17.07%)"
+            ],
+            notutilized: []
+          }
+        }
+      },
+      {
+        range: "990.00-1020.00MHz",
+        result: {
+          utilization: "17.27",
+          frequencies: {
+            utilized: [
+              "990.00-991.00MHz (16.95%)",
+              "991.00-1000.00MHz (16.10%)",
+              "1000.00-1020.00MHz (17.40%)"
+            ],
+            notutilized: []
+          }
+        }
+      },
+      {
+  range: "1020.00-1050.00MHz",
+  result: {
+    utilization: "26.14",
+    frequencies: {
+      utilized: [
+        "1020.00-1030.00MHz (19.84%)",
+        "1030.00-1040.00MHz (23.50%)",
+        "1040.00-1050.00MHz (29.30%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1050.00-1080.00MHz",
+  result: {
+    utilization: "37.73",
+    frequencies: {
+      utilized: [
+        "1050.00-1060.00MHz (34.54%)",
+        "1060.00-1070.00MHz (40.90%)",
+        "1070.00-1080.00MHz (44.12%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1080.00-1110.00MHz",
+  result: {
+    utilization: "62.71",
+    frequencies: {
+      utilized: [
+        "1080.00-1100.00MHz (65.03%)",
+        "1100.00-1110.00MHz (55.10%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1110.00-1140.00MHz",
+  result: {
+    utilization: "59.00",
+    frequencies: {
+      utilized: [
+        "1110.00-1120.00MHz (55.77%)",
+        "1120.00-1130.00MHz (57.13%)",
+        "1130.00-1140.00MHz (60.64%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1140.00-1170.00MHz",
+  result: {
+    utilization: "64.80",
+    frequencies: {
+      utilized: [
+        "1140.00-1150.00MHz (64.69%)",
+        "1150.00-1160.00MHz (66.60%)",
+        "1160.00-1170.00MHz (65.80%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1170.00-1200.00MHz",
+  result: {
+    utilization: "67.55",
+    frequencies: {
+      utilized: [
+        "1170.00-1190.00MHz (67.55%)",
+        "1190.00-1200.00MHz (71.13%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1200.00-1230.00MHz",
+  result: {
+    utilization: "69.92",
+    frequencies: {
+      utilized: [
+        "1200.00-1210.00MHz (71.35%)",
+        "1210.00-1230.00MHz (69.51%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1230.00-1260.00MHz",
+  result: {
+    utilization: "64.00",
+    frequencies: {
+      utilized: [
+        "1230.00-1240.00MHz (64.86%)",
+        "1240.00-1250.00MHz (56.44%)",
+        "1250.00-1260.00MHz (59.32%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1260.00-1290.00MHz",
+  result: {
+    utilization: "53.48",
+    frequencies: {
+      utilized: [
+        "1260.00-1270.00MHz (55.53%)",
+        "1270.00-1280.00MHz (49.12%)",
+        "1280.00-1290.00MHz (49.38%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1290.00-1320.00MHz",
+  result: {
+    utilization: "45.62",
+    frequencies: {
+      utilized: [
+        "1290.00-1300.00MHz (49.60%)",
+        "1300.00-1320.00MHz (44.37%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1320.00-1350.00MHz",
+  result: {
+    utilization: "43.36",
+    frequencies: {
+      utilized: [
+        "1320.00-1330.00MHz (40.52%)",
+        "1330.00-1340.00MHz (42.00%)",
+        "1340.00-1350.00MHz (44.77%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1350.00-1380.00MHz",
+  result: {
+    utilization: "53.20",
+    frequencies: {
+      utilized: [
+        "1350.00-1360.00MHz (50.00%)",
+        "1360.00-1370.00MHz (56.66%)",
+        "1370.00-1380.00MHz (59.50%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1380.00-1410.00MHz",
+  result: {
+    utilization: "67.52",
+    frequencies: {
+      utilized: [
+        "1380.00-1400.00MHz (65.53%)",
+        "1400.00-1410.00MHz (71.88%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1410.00-1440.00MHz",
+  result: {
+    utilization: "77.17",
+    frequencies: {
+      utilized: [
+        "1410.00-1420.00MHz (73.51%)",
+        "1420.00-1430.00MHz (75.91%)",
+        "1430.00-1440.00MHz (79.00%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1440.00-1470.00MHz",
+  result: {
+    utilization: "83.35",
+    frequencies: {
+      utilized: [
+        "1440.00-1450.00MHz (81.84%)",
+        "1450.00-1460.00MHz (84.00%)",
+        "1460.00-1470.00MHz (85.20%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1470.00-1500.00MHz",
+  result: {
+    utilization: "87.92",
+    frequencies: {
+      utilized: [
+        "1470.00-1490.00MHz (87.18%)",
+        "1490.00-1500.00MHz (89.40%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1500.00-1530.00MHz",
+  result: {
+    utilization: "85.93",
+    frequencies: {
+      utilized: [
+        "1500.00-1510.00MHz (88.34%)",
+        "1510.00-1530.00MHz (84.77%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1530.00-1560.00MHz",
+  result: {
+    utilization: "77.52",
+    frequencies: {
+      utilized: [
+        "1530.00-1540.00MHz (79.36%)",
+        "1540.00-1550.00MHz (77.16%)",
+        "1550.00-1560.00MHz (75.50%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1560.00-1590.00MHz",
+  result: {
+    utilization: "69.52",
+    frequencies: {
+      utilized: [
+        "1560.00-1570.00MHz (71.22%)",
+        "1570.00-1580.00MHz (67.36%)",
+        "1580.00-1590.00MHz (67.36%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1590.00-1620.00MHz",
+  result: {
+    utilization: "64.52",
+    frequencies: {
+      utilized: [
+        "1590.00-1600.00MHz (67.94%)",
+        "1600.00-1620.00MHz (63.98%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1620.00-1650.00MHz",
+  result: {
+    utilization: "63.47",
+    frequencies: {
+      utilized: [
+        "1620.00-1630.00MHz (60.44%)",
+        "1630.00-1640.00MHz (61.84%)",
+        "1640.00-1650.00MHz (64.98%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1650.00-1680.00MHz",
+  result: {
+    utilization: "70.60",
+    frequencies: {
+      utilized: [
+        "1650.00-1660.00MHz (68.61%)",
+        "1660.00-1670.00MHz (72.53%)",
+        "1670.00-1680.00MHz (74.58%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1680.00-1710.00MHz",
+  result: {
+    utilization: "77.83",
+    frequencies: {
+      utilized: [
+        "1680.00-1700.00MHz (76.62%)",
+        "1700.00-1710.00MHz (80.20%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1710.00-1740.00MHz",
+  result: {
+    utilization: "84.55",
+    frequencies: {
+      utilized: [
+        "1710.00-1720.00MHz (81.47%)",
+        "1720.00-1730.00MHz (83.26%)",
+        "1730.00-1740.00MHz (86.10%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1740.00-1770.00MHz",
+  result: {
+    utilization: "88.24",
+    frequencies: {
+      utilized: [
+        "1740.00-1750.00MHz (87.81%)",
+        "1750.00-1760.00MHz (88.50%)",
+        "1760.00-1770.00MHz (88.80%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1770.00-1800.00MHz",
+  result: {
+    utilization: "89.37",
+    frequencies: {
+      utilized: [
+        "1770.00-1790.00MHz (89.37%)",
+        "1790.00-1800.00MHz (89.21%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1800.00-1830.00MHz",
+  result: {
+    utilization: "97.30",
+    frequencies: {
+      utilized: [
+        "1800.00-1810.00MHz (94.60%)",
+        "1810.00-1830.00MHz (100.00%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1830.00-1860.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "1830.00-1840.00MHz (100.00%)",
+        "1840.00-1850.00MHz (100.00%)",
+        "1850.00-1860.00MHz (100.00%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1860.00-1890.00MHz",
+  result: {
+    utilization: "92.20",
+    frequencies: {
+      utilized: [
+        "1860.00-1870.00MHz (100.00%)",
+        "1870.00-1880.00MHz (92.20%)",
+        "1880.00-1890.00MHz (76.71%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1890.00-1920.00MHz",
+  result: {
+    utilization: "81.24",
+    frequencies: {
+      utilized: [
+        "1890.00-1900.00MHz (76.17%)",
+        "1900.00-1920.00MHz (82.74%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1920.00-1950.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "1920.00-1930.00MHz (100%)",
+        "1930.00-1940.00MHz (100%)",
+        "1940.00-1950.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1950.00-1980.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "1950.00-1960.00MHz (100%)",
+        "1960.00-1970.00MHz (100%)",
+        "1970.00-1980.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "1980.00-2010.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "1980.00-2000.00MHz (100%)",
+        "2000.00-2010.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2010.00-2040.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "2010.00-2020.00MHz (100%)",
+        "2020.00-2030.00MHz (100%)",
+        "2030.00-2040.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2040.00-2070.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "2040.00-2050.00MHz (100%)",
+        "2050.00-2060.00MHz (100%)",
+        "2060.00-2070.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2070.00-2100.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "2070.00-2090.00MHz (100%)",
+        "2090.00-2100.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2100.00-2130.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "2100.00-2110.00MHz (100%)",
+        "2110.00-2130.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2130.00-2160.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "2130.00-2140.00MHz (100%)",
+        "2140.00-2150.00MHz (100%)",
+        "2150.00-2160.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2160.00-2190.00MHz",
+  result: {
+    utilization: "100.00",
+    frequencies: {
+      utilized: [
+        "2160.00-2170.00MHz (100%)",
+        "2170.00-2180.00MHz (100%)",
+        "2180.00-2190.00MHz (100%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2190.00-2220.00MHz",
+  result: {
+    utilization: "50.00",
+    frequencies: {
+      utilized: [
+        "2190.00-2200.00MHz (50%)",
+        "2200.00-2220.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2220.00-2250.00MHz",
+  result: {
+    utilization: "0.00",
+    frequencies: {
+      utilized: [
+        "2220.00-2230.00MHz (0%)",
+        "2230.00-2240.00MHz (0%)",
+        "2240.00-2250.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2250.00-2280.00MHz",
+  result: {
+    utilization: "0.00",
+    frequencies: {
+      utilized: [
+        "2250.00-2260.00MHz (0%)",
+        "2260.00-2270.00MHz (0%)",
+        "2270.00-2280.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2280.00-2310.00MHz",
+  result: {
+    utilization: "0.00",
+    frequencies: {
+      utilized: [
+        "2280.00-2300.00MHz (0%)",
+        "2300.00-2310.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2310.00-2340.00MHz",
+  result: {
+    utilization: "0.00",
+    frequencies: {
+      utilized: [
+        "2310.00-2320.00MHz (0%)",
+        "2320.00-2330.00MHz (0%)",
+        "2330.00-2340.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2340.00-2370.00MHz",
+  result: {
+    utilization: "0.00",
+    frequencies: {
+      utilized: [
+        "2340.00-2350.00MHz (0%)",
+        "2350.00-2360.00MHz (0%)",
+        "2360.00-2370.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2370.00-2400.00MHz",
+  result: {
+    utilization: "0.09",
+    frequencies: {
+      utilized: [
+        "2370.00-2390.00MHz (0%)",
+        "2390.00-2400.00MHz (0.28%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2400.00-2430.00MHz",
+  result: {
+    utilization: "0.50",
+    frequencies: {
+      utilized: [
+        "2400.00-2410.00MHz (0.55%)",
+        "2410.00-2430.00MHz (0.56%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2430.00-2460.00MHz",
+  result: {
+    utilization: "1.03",
+    frequencies: {
+      utilized: [
+        "2430.00-2440.00MHz (0.81%)",
+        "2440.00-2450.00MHz (1.27%)",
+        "2450.00-2460.00MHz (0.85%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2460.00-2490.00MHz",
+  result: {
+    utilization: "0.49",
+    frequencies: {
+      utilized: [
+        "2460.00-2470.00MHz (0.74%)",
+        "2470.00-2480.00MHz (0.01%)",
+        "2480.00-2490.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2490.00-2520.00MHz",
+  result: {
+    utilization: "0.05",
+    frequencies: {
+      utilized: [
+        "2490.00-2500.00MHz (0%)",
+        "2500.00-2520.00MHz (0.07%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2520.00-2550.00MHz",
+  result: {
+    utilization: "0.10",
+    frequencies: {
+      utilized: [
+        "2520.00-2530.00MHz (0.17%)",
+        "2530.00-2540.00MHz (0.14%)",
+        "2540.00-2550.00MHz (0.06%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2550.00-2580.00MHz",
+  result: {
+    utilization: "8.35",
+    frequencies: {
+      utilized: [
+        "2550.00-2560.00MHz (0.02%)",
+        "2560.00-2570.00MHz (12.51%)",
+        "2570.00-2580.00MHz (25.01%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2580.00-2610.00MHz",
+  result: {
+    utilization: "34.80",
+    frequencies: {
+      utilized: [
+        "2580.00-2600.00MHz (20.16%)",
+        "2600.00-2610.00MHz (46.34%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2610.00-2640.00MHz",
+  result: {
+    utilization: "92.53",
+    frequencies: {
+      utilized: [
+        "2610.00-2620.00MHz (78.71%)",
+        "2620.00-2630.00MHz (88.79%)",
+        "2630.00-2640.00MHz (99.43%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2640.00-2670.00MHz",
+  result: {
+    utilization: "99.59",
+    frequencies: {
+      utilized: [
+        "2640.00-2650.00MHz (99.83%)",
+        "2650.00-2660.00MHz (99.83%)",
+        "2660.00-2670.00MHz (96.39%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2670.00-2700.00MHz",
+  result: {
+    utilization: "59.15",
+    frequencies: {
+      utilized: [
+        "2670.00-2690.00MHz (59.15%)",
+        "2690.00-2700.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2700.00-2730.00MHz",
+  result: {
+    utilization: "0.00",
+    frequencies: {
+      utilized: [
+        "2700.00-2710.00MHz (0%)",
+        "2710.00-2730.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+     {
+        range: "2730.00-2760.00MHz",
+        result: {
+          utilization: "0",
+          frequencies: {
+            utilized: [
+              "2730.00-2740.00MHz (0%)",
+              "2740.00-2750.00MHz (0%)",
+              "2750.00-2760.00MHz (0%)"
+            ],
+            notutilized: []
+          }
+        }
+      },
+      {
+  range: "2760.00-2790.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "2760.00-2770.00MHz (0%)",
+        "2770.00-2780.00MHz (0%)",
+        "2780.00-2790.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2790.00-2820.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "2790.00-2800.00MHz (0%)",
+        "2800.00-2820.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2820.00-2850.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "2820.00-2830.00MHz (0%)",
+        "2830.00-2840.00MHz (0%)",
+        "2840.00-2850.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2850.00-2880.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "2850.00-2860.00MHz (0%)",
+        "2860.00-2870.00MHz (0%)",
+        "2870.00-2880.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2880.00-2910.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "2880.00-2900.00MHz (0%)",
+        "2900.00-2910.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2910.00-2940.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "2910.00-2920.00MHz (0%)",
+        "2920.00-2930.00MHz (0%)",
+        "2930.00-2940.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2940.00-2970.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "2940.00-2950.00MHz (0%)",
+        "2950.00-2960.00MHz (0%)",
+        "2960.00-2970.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "2970.00-3000.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "2970.00-2974.00MHz (0%)",
+        "2974.00-2987.00MHz (0%)",
+        "2987.00-3000.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+}
+]
+},
+               //3ghz to 6ghz
+      
+ {
+  range: "3000.00-3030.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3000.00-3010.00MHz (0%)",
+        "3010.00-3030.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3030.00-3060.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3030.00-3040.00MHz (0%)",
+        "3040.00-3050.00MHz (0%)",
+        "3050.00-3060.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3060.00-3090.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3060.00-3070.00MHz (0%)",
+        "3070.00-3080.00MHz (0%)",
+        "3080.00-3090.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3090.00-3120.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3090.00-3100.00MHz (0%)",
+        "3100.00-3120.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3120.00-3150.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3120.00-3130.00MHz (0%)",
+        "3130.00-3140.00MHz (0%)",
+        "3140.00-3150.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3150.00-3180.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3150.00-3160.00MHz (0%)",
+        "3160.00-3170.00MHz (0%)",
+        "3170.00-3180.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3180.00-3210.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3180.00-3200.00MHz (0%)",
+        "3200.00-3210.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3210.00-3240.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3210.00-3220.00MHz (0%)",
+        "3220.00-3230.00MHz (0%)",
+        "3230.00-3240.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3240.00-3270.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3240.00-3250.00MHz (0%)",
+        "3250.00-3260.00MHz (0%)",
+        "3260.00-3270.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3270.00-3300.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3270.00-3290.00MHz (0%)",
+        "3290.00-3300.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3300.00-3330.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3300.00-3310.00MHz (0%)",
+        "3310.00-3330.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3330.00-3360.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3330.00-3340.00MHz (0%)",
+        "3340.00-3350.00MHz (0%)",
+        "3350.00-3360.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3360.00-3390.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3360.00-3370.00MHz (0%)",
+        "3370.00-3380.00MHz (0%)",
+        "3380.00-3390.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3390.00-3420.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3390.00-3400.00MHz (0%)",
+        "3400.00-3420.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3420.00-3450.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3420.00-3430.00MHz (0%)",
+        "3430.00-3440.00MHz (0%)",
+        "3440.00-3450.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3450.00-3480.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3450.00-3460.00MHz (0%)",
+        "3460.00-3470.00MHz (0%)",
+        "3470.00-3480.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3480.00-3510.00MHz",
+  result: {
+    utilization: "0.04",
+    frequencies: {
+      utilized: [
+        "3480.00-3500.00MHz (0.04%)",
+        "3500.00-3510.00MHz (0.01%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3510.00-3540.00MHz",
+  result: {
+    utilization: "0.02",
+    frequencies: {
+      utilized: [
+        "3510.00-3520.00MHz (0.01%)",
+        "3520.00-3530.00MHz (0.01%)",
+        "3530.00-3540.00MHz (0.03%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3540.00-3570.00MHz",
+  result: {
+    utilization: "0.10",
+    frequencies: {
+      utilized: [
+        "3540.00-3550.00MHz (0.08%)",
+        "3550.00-3560.00MHz (0.08%)",
+        "3560.00-3570.00MHz (0.12%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3570.00-3600.00MHz",
+  result: {
+    utilization: "0.08",
+    frequencies: {
+      utilized: [
+        "3570.00-3590.00MHz (0.08%)",
+        "3590.00-3600.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3600.00-3630.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3600.00-3610.00MHz (0%)",
+        "3610.00-3630.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3630.00-3660.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3630.00-3640.00MHz (0%)",
+        "3640.00-3650.00MHz (0%)",
+        "3650.00-3660.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3660.00-3690.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3660.00-3670.00MHz (0%)",
+        "3670.00-3680.00MHz (0%)",
+        "3680.00-3690.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3690.00-3720.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3690.00-3700.00MHz (0%)",
+        "3700.00-3720.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3720.00-3750.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3720.00-3730.00MHz (0%)",
+        "3730.00-3740.00MHz (0%)",
+        "3740.00-3750.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3750.00-3780.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3750.00-3760.00MHz (0%)",
+        "3760.00-3770.00MHz (0%)",
+        "3770.00-3780.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3780.00-3810.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3780.00-3800.00MHz (0%)",
+        "3800.00-3810.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3810.00-3840.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3810.00-3820.00MHz (0%)",
+        "3820.00-3830.00MHz (0%)",
+        "3830.00-3840.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3840.00-3870.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3840.00-3850.00MHz (0%)",
+        "3850.00-3860.00MHz (0%)",
+        "3860.00-3870.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3870.00-3900.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3870.00-3890.00MHz (0%)",
+        "3890.00-3900.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3900.00-3930.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3900.00-3910.00MHz (0%)",
+        "3910.00-3930.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3930.00-3960.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3930.00-3940.00MHz (0%)",
+        "3940.00-3950.00MHz (0%)",
+        "3950.00-3960.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3960.00-3990.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3960.00-3970.00MHz (0%)",
+        "3970.00-3980.00MHz (0%)",
+        "3980.00-3990.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "3990.00-4020.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "3990.00-4000.00MHz (0%)",
+        "4000.00-4020.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4020.00-4050.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4020.00-4030.00MHz (0%)",
+        "4030.00-4040.00MHz (0%)",
+        "4040.00-4050.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4050.00-4080.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4050.00-4060.00MHz (0%)",
+        "4060.00-4070.00MHz (0%)",
+        "4070.00-4080.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4080.00-4110.00MHz",
+  result: {
+    utilization: "63.28",
+    frequencies: {
+      utilized: [
+        "4080.00-4100.00MHz (63.28%)",
+        "4100.00-4110.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4110.00-4140.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4110.00-4120.00MHz (0%)",
+        "4120.00-4130.00MHz (0%)",
+        "4130.00-4140.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4140.00-4170.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4140.00-4150.00MHz (0%)",
+        "4150.00-4160.00MHz (0%)",
+        "4160.00-4170.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4170.00-4200.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4170.00-4190.00MHz (0%)",
+        "4190.00-4200.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4200.00-4230.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4200.00-4210.00MHz (0%)",
+        "4210.00-4230.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4230.00-4260.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4230.00-4240.00MHz (0%)",
+        "4240.00-4250.00MHz (0%)",
+        "4250.00-4260.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4260.00-4290.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4260.00-4270.00MHz (0%)",
+        "4270.00-4280.00MHz (0%)",
+        "4280.00-4290.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4290.00-4320.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4290.00-4300.00MHz (0%)",
+        "4300.00-4320.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4320.00-4350.00MHz",
+  result: {
+    utilization: "86.21",
+    frequencies: {
+      utilized: [
+        "4320.00-4330.00MHz (0%)",
+        "4330.00-4340.00MHz (0%)",
+        "4340.00-4350.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4350.00-4380.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4350.00-4360.00MHz (0%)",
+        "4360.00-4370.00MHz (0%)",
+        "4370.00-4380.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4380.00-4410.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4380.00-4400.00MHz (0%)",
+        "4400.00-4410.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4410.00-4440.00MHz",
+  result: {
+    utilization: "6.49",
+    frequencies: {
+      utilized: [
+        "4410.00-4420.00MHz (0%)",
+        "4420.00-4430.00MHz (0%)",
+        "4430.00-4440.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4440.00-4470.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4440.00-4450.00MHz (0%)",
+        "4450.00-4460.00MHz (0%)",
+        "4460.00-4470.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4470.00-4500.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4470.00-4490.00MHz (0%)",
+        "4490.00-4500.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4500.00-4530.00MHz",
+  result: {
+    utilization: "0.01",
+    frequencies: {
+      utilized: [
+        "4500.00-4510.00MHz (0.10%)",
+        "4510.00-4530.00MHz (0.10%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4530.00-4560.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4530.00-4540.00MHz (0.01%)",
+        "4540.00-4550.00MHz (0.10%)",
+        "4550.00-4560.00MHz (0.10%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4560.00-4590.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4560.00-4570.00MHz (0%)",
+        "4570.00-4580.00MHz (0%)",
+        "4580.00-4590.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4590.00-4620.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4590.00-4600.00MHz (0%)",
+        "4600.00-4620.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4620.00-4650.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4620.00-4630.00MHz (0%)",
+        "4630.00-4640.00MHz (0%)",
+        "4640.00-4650.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4650.00-4680.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4650.00-4660.00MHz (0%)",
+        "4660.00-4670.00MHz (0%)",
+        "4670.00-4680.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4680.00-4710.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4680.00-4700.00MHz (0%)",
+        "4700.00-4710.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4710.00-4740.00MHz",
+  result: {
+    utilization: "0",
+    frequencies: {
+      utilized: [
+        "4710.00-4720.00MHz (0%)",
+        "4720.00-4730.00MHz (0%)",
+        "4730.00-4740.00MHz (0%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4740.00-4770.00MHz",
+  result: {
+    utilization: "0.04",
+    frequencies: {
+      utilized: [
+        "4740.00-4750.00MHz (0.02%)",
+        "4750.00-4760.00MHz (0.03%)",
+        "4760.00-4770.00MHz (0.06%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4770.00-4800.00MHz",
+  result: {
+    utilization: "0.18",
+    frequencies: {
+      utilized: [
+        "4770.00-4790.00MHz (0.18%)",
+        "4790.00-4800.00MHz (0.29%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4800.00-4830.00MHz",
+  result: {
+    utilization: "0.47",
+    frequencies: {
+      utilized: [
+        "4800.00-4810.00MHz (0.65%)",
+        "4810.00-4830.00MHz (0.53%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4830.00-4860.00MHz",
+  result: {
+    utilization: "0.65",
+    frequencies: {
+      utilized: [
+        "4830.00-4840.00MHz (0.65%)",
+        "4840.00-4850.00MHz (0.67%)",
+        "4850.00-4860.00MHz (0.67%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4860.00-4890.00MHz",
+  result: {
+    utilization: "0.65",
+    frequencies: {
+      utilized: [
+        "4860.00-4870.00MHz (0.67%)",
+        "4870.00-4880.00MHz (0.65%)",
+        "4880.00-4890.00MHz (0.62%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4890.00-4920.00MHz",
+  result: {
+    utilization: "0.62",
+    frequencies: {
+      utilized: [
+        "4890.00-4900.00MHz (0.62%)",
+        "4900.00-4920.00MHz (0.62%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4920.00-4950.00MHz",
+  result: {
+    utilization: "0.91",
+    frequencies: {
+      utilized: [
+        "4920.00-4930.00MHz (0.60%)",
+        "4930.00-4940.00MHz (0.71%)",
+        "4940.00-4950.00MHz (1.04%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4950.00-4980.00MHz",
+  result: {
+    utilization: "2.40",
+    frequencies: {
+      utilized: [
+        "4950.00-4960.00MHz (1.20%)",
+        "4960.00-4970.00MHz (2.90%)",
+        "4970.00-4980.00MHz (3.52%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "4980.00-5010.00MHz",
+  result: {
+    utilization: "7.22",
+    frequencies: {
+      utilized: [
+        "4980.00-5000.00MHz (5.67%)",
+        "5000.00-5010.00MHz (9.95%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5010.00-5040.00MHz",
+  result: {
+    utilization: "16.82",
+    frequencies: {
+      utilized: [
+        "5010.00-5020.00MHz (11.87%)",
+        "5020.00-5030.00MHz (14.25%)",
+        "5030.00-5040.00MHz (19.29%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5040.00-5070.00MHz",
+  result: {
+    utilization: "29.51",
+    frequencies: {
+      utilized: [
+        "5040.00-5050.00MHz (25.49%)",
+        "5050.00-5060.00MHz (29.02%)",
+        "5060.00-5070.00MHz (33.30%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5070.00-5100.00MHz",
+  result: {
+    utilization: "46.65",
+    frequencies: {
+      utilized: [
+        "5070.00-5090.00MHz (46.65%)",
+        "5090.00-5100.00MHz (55.70%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5100.00-5130.00MHz",
+  result: {
+    utilization: "66.26",
+    frequencies: {
+      utilized: [
+        "5100.00-5110.00MHz (59.66%)",
+        "5110.00-5130.00MHz (69.78%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5130.00-5160.00MHz",
+  result: {
+    utilization: "78.54",
+    frequencies: {
+      utilized: [
+        "5130.00-5140.00MHz (76.89%)",
+        "5140.00-5150.00MHz (78.76%)",
+        "5150.00-5160.00MHz (80.03%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5160.00-5190.00MHz",
+  result: {
+    utilization: "84.53",
+    frequencies: {
+      utilized: [
+        "5160.00-5170.00MHz (83.28%)",
+        "5170.00-5180.00MHz (85.87%)",
+        "5180.00-5190.00MHz (87.03%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5190.00-5220.00MHz",
+  result: {
+    utilization: "88.12",
+    frequencies: {
+      utilized: [
+        "5190.00-5200.00MHz (87.56%)",
+        "5200.00-5220.00MHz (88.48%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5220.00-5250.00MHz",
+  result: {
+    utilization: "87.45",
+    frequencies: {
+      utilized: [
+        "5220.00-5230.00MHz (88.72%)",
+        "5230.00-5240.00MHz (88.03%)",
+        "5240.00-5250.00MHz (86.82%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5250.00-5280.00MHz",
+  result: {
+    utilization: "84.06",
+    frequencies: {
+      utilized: [
+        "5250.00-5260.00MHz (85.14%)",
+        "5260.00-5270.00MHz (82.95%)",
+        "5270.00-5280.00MHz (81.91%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5280.00-5310.00MHz",
+  result: {
+    utilization: "77.19",
+    frequencies: {
+      utilized: [
+        "5280.00-5300.00MHz (78.97%)",
+        "5300.00-5310.00MHz (73.90%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5310.00-5340.00MHz",
+  result: {
+    utilization: "66.03",
+    frequencies: {
+      utilized: [
+        "5310.00-5320.00MHz (71.85%)",
+        "5320.00-5330.00MHz (68.89%)",
+        "5330.00-5340.00MHz (63.11%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5340.00-5370.00MHz",
+  result: {
+    utilization: "58.23",
+    frequencies: {
+      utilized: [
+        "5340.00-5350.00MHz (59.20%)",
+        "5350.00-5360.00MHz (58.10%)",
+        "5360.00-5370.00MHz (57.21%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5370.00-5400.00MHz",
+  result: {
+    utilization: "56.48",
+    frequencies: {
+      utilized: [
+        "5370.00-5390.00MHz (56.48%)",
+        "5390.00-5400.00MHz (56.90%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5400.00-5430.00MHz",
+  result: {
+    utilization: "56.55",
+    frequencies: {
+      utilized: [
+        "5400.00-5410.00MHz (57.15%)",
+        "5410.00-5430.00MHz (56.44%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5430.00-5460.00MHz",
+  result: {
+    utilization: "54.40",
+    frequencies: {
+      utilized: [
+        "5430.00-5440.00MHz (55.04%)",
+        "5440.00-5450.00MHz (54.65%)",
+        "5450.00-5460.00MHz (53.88%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5460.00-5490.00MHz",
+  result: {
+    utilization: "54.67",
+    frequencies: {
+      utilized: [
+        "5460.00-5470.00MHz (53.93%)",
+        "5470.00-5480.00MHz (55.43%)",
+        "5480.00-5490.00MHz (56.13%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5490.00-5520.00MHz",
+  result: {
+    utilization: "56.54",
+    frequencies: {
+      utilized: [
+        "5490.00-5500.00MHz (56.32%)",
+        "5500.00-5520.00MHz (56.68%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5520.00-5550.00MHz",
+  result: {
+    utilization: "56.40",
+    frequencies: {
+      utilized: [
+        "5520.00-5530.00MHz (56.68%)",
+        "5530.00-5540.00MHz (56.60%)",
+        "5540.00-5550.00MHz (56.25%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5550.00-5580.00MHz",
+  result: {
+    utilization: "52.88",
+    frequencies: {
+      utilized: [
+        "5550.00-5560.00MHz (53.73%)",
+        "5560.00-5570.00MHz (51.33%)",
+        "5570.00-5580.00MHz (51.21%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5580.00-5610.00MHz",
+  result: {
+    utilization: "50.41",
+    frequencies: {
+      utilized: [
+        "5580.00-5600.00MHz (50.74%)",
+        "5600.00-5610.00MHz (49.80%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5610.00-5640.00MHz",
+  result: {
+    utilization: "49.91",
+    frequencies: {
+      utilized: [
+        "5610.00-5620.00MHz (49.41%)",
+        "5620.00-5630.00MHz (49.56%)",
+        "5630.00-5640.00MHz (50.16%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5640.00-5670.00MHz",
+  result: {
+    utilization: "52.05",
+    frequencies: {
+      utilized: [
+        "5640.00-5650.00MHz (51.31%)",
+        "5650.00-5660.00MHz (52.01%)",
+        "5660.00-5670.00MHz (52.77%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5670.00-5700.00MHz",
+  result: {
+    utilization: "56.21",
+    frequencies: {
+      utilized: [
+        "5670.00-5690.00MHz (56.21%)",
+        "5690.00-5700.00MHz (59.56%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5700.00-5730.00MHz",
+  result: {
+    utilization: "66.08",
+    frequencies: {
+      utilized: [
+        "5700.00-5710.00MHz (61.64%)",
+        "5710.00-5730.00MHz (68.26%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5730.00-5760.00MHz",
+  result: {
+    utilization: "77.98",
+    frequencies: {
+      utilized: [
+        "5730.00-5740.00MHz (75.35%)",
+        "5740.00-5750.00MHz (77.93%)",
+        "5750.00-5760.00MHz (80.58%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5760.00-5790.00MHz",
+  result: {
+    utilization: "87.54",
+    frequencies: {
+      utilized: [
+        "5760.00-5770.00MHz (83.22%)",
+        "5770.00-5780.00MHz (85.46%)",
+        "5780.00-5790.00MHz (89.70%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5790.00-5820.00MHz",
+  result: {
+    utilization: "95.12",
+    frequencies: {
+      utilized: [
+        "5790.00-5800.00MHz (93.11%)",
+        "5800.00-5820.00MHz (96.26%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5820.00-5850.00MHz",
+  result: {
+    utilization: "98.45",
+    frequencies: {
+      utilized: [
+        "5820.00-5830.00MHz (97.78%)",
+        "5830.00-5840.00MHz (98.17%)",
+        "5840.00-5850.00MHz (98.79%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5850.00-5880.00MHz",
+  result: {
+    utilization: "99.32",
+    frequencies: {
+      utilized: [
+        "5850.00-5860.00MHz (99.19%)",
+        "5860.00-5870.00MHz (99.47%)",
+        "5870.00-5880.00MHz (99.58%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5880.00-5910.00MHz",
+  result: {
+    utilization: "99.72",
+    frequencies: {
+      utilized: [
+        "5880.00-5900.00MHz (99.69%)",
+        "5900.00-5910.00MHz (99.78%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5910.00-5940.00MHz",
+  result: {
+    utilization: "99.79",
+    frequencies: {
+      utilized: [
+        "5910.00-5920.00MHz (99.79%)",
+        "5920.00-5930.00MHz (99.79%)",
+        "5930.00-5940.00MHz (99.79%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5940.00-5970.00MHz",
+  result: {
+    utilization: "99.79",
+    frequencies: {
+      utilized: [
+        "5940.00-5950.00MHz (99.79%)",
+        "5950.00-5960.00MHz (99.78%)",
+        "5960.00-5970.00MHz (99.78%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+{
+  range: "5970.00-6000.00MHz",
+  result: {
+    utilization: "99.77",
+    frequencies: {
+      utilized: [
+        "5970.00-5990.00MHz (99.77%)",
+        "5990.00-6000.00MHz (99.74%)"
+      ],
+      notutilized: []
+    }
+  }
+},
+];
 export default BandsData
